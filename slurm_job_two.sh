@@ -17,7 +17,7 @@ lscpu | grep "Model name"
 
 # run (srun: run job on cluster with provided resources/allocation)
 srun hostname
-sbatch --constraint EPYC_9654 --wrap "./hello_world"
+srun --constraint EPYC_9654 --wrap "./hello_world"
 
 
 
