@@ -6,6 +6,7 @@
 #SBATCH --cpus-per-task=1             # Number of CPUs per task
 #SBATCH --mem-per-cpu=1024            # Memory per CPU
 #SBATCH --time=00:01:00               # Wall clock time limit
+#SBATCH --constraint=EPYC_9654        # CPU model constraint
 
 # load some modules & list loaded modules
 module load gcc
@@ -15,5 +16,5 @@ module list
 lscpu | grep "Model name"
 
 # run (srun: run job on cluster with provided resources/allocation)
-srun hostname
-sbatch --constraint EPYC_9654 --wrap "./hello_world"
+
+srun hello_world
