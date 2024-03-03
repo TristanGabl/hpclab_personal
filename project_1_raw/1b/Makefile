@@ -42,7 +42,16 @@ benchmark-blocked: benchmark.o dgemm-blocked.o
 benchmark-blas: benchmark.o dgemm-blas.o
 	$(CC) -o $@ $^ $(LDLIBS)
 
-%.o: %.c
+benchmark.o: benchmark.c
+	$(CC) -c $(CFLAGS) $<
+
+dgemm-naive.o: dgemm-naive.c
+	$(CC) -c $(CFLAGS) $<
+
+dgemm-blocked.o: dgemm-blocked.c
+	$(CC) -c $(CFLAGS) -O3 $<
+
+gemm-blas.o: gemm-blas.c
 	$(CC) -c $(CFLAGS) $<
 
 .PHONY: clean
