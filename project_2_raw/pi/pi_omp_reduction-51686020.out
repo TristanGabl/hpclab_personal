@@ -1,0 +1,12 @@
+N = 100
+reduction, number_thread = 1, pi = 3.141600986923125, N = 100, time = 0.00100 secs
+N = 100
+reduction, number_thread = 2, pi = 3.141600986923125, N = 100, time = 0.00019 secs
+N = 100
+reduction, number_thread = 4, pi = 3.141600986923125, N = 100, time = 0.00018 secs
+N = 100
+reduction, number_thread = 8, pi = 3.141600986923125, N = 100, time = 0.00041 secs
+N = 100
+reduction, number_thread = 16, pi = 3.141600986923124, N = 100, time = 0.00061 secs
+N = 100
+reduction, number_thread = 32, pi = 3.141600986923125, N = 100, time = 0.02837 secs

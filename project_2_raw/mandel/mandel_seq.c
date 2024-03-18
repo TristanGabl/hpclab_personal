@@ -27,23 +27,31 @@ int main(int argc, char **argv) {
   for (j = 0; j < IMAGE_HEIGHT; j++) {
     cx = MIN_X;
     for (i = 0; i < IMAGE_WIDTH; i++) {
-      x = cx;
-      y = cy;
-      x2 = x * x;
-      y2 = y * y;
-      // compute the orbit z, f(z), f^2(z), f^3(z), ...
-      // count the iterations until the orbit leaves the circle |z|=2.
-      // stop if the number of iterations exceeds the bound MAX_ITERS.
-      int n = 0;
-      // TODO
-      // >>>>>>>> CODE IS MISSING
-
-      // <<<<<<<< CODE IS MISSING
-      // n indicates if the point belongs to the mandelbrot set
-      // plot the number of iterations at point (i, j)
-      int c = ((long)n * 255) / MAX_ITERS;
-      png_plot(pPng, i, j, c, c, c);
-      cx += fDeltaX;
+       x = cx;
+       y = cy;
+       x2 = x * x;
+       y2 = y * y;
+       // compute the orbit z, f(z), f^2(z), f^3(z), ...
+       // count the iterations until the orbit leaves the circle |z|=2.
+       // stop if the number of iterations exceeds the bound MAX_ITERS.
+       int n = 0;
+       // TODO
+       // >>>>>>>> CODE IS MISSING
+       for (unsigned k = 0; k < MAX_ITERS; ++k) {  
+              if (4.0 < x2 + y2) break;
+              y = 2 * x * y + cy;
+              x = x2 - y2 + cx;
+              x2 = x * x;
+              y2 = y * y;
+              ++n;
+       }
+       nTotalIterationsCount += n;
+       // <<<<<<<< CODE IS MISSING
+       // n indicates if the point belongs to the mandelbrot set
+       // plot the number of iterations at point (i, j)
+       int c = ((long)n * 255) / MAX_ITERS;
+       png_plot(pPng, i, j, c, c, c);
+       cx += fDeltaX;
     }
     cy += fDeltaY;
   }

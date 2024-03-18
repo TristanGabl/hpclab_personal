@@ -3,8 +3,9 @@
 #include "walltime.h"
 
 int main(int argc, char *argv[]) {
-  long int N = 1000000;
+  long int N = 1000000000;
   double time_start, h, sum, pi;
+  int number_thread = 1;
 
   if ( argc > 1 ) N = atol(argv[1]);
 
@@ -18,7 +19,9 @@ int main(int argc, char *argv[]) {
   pi = sum*h;
   double time = walltime() - time_start;
 
-  printf("pi = \%.15f, N = %9d, time = %.8f secs\n", pi, N, time);
+  printf("reduction, number_thread = %d, pi = \%.15f, N = %d, time = %.5f secs\n", number_thread, pi, N, time);
+  
+  
 
   return 0;
 }

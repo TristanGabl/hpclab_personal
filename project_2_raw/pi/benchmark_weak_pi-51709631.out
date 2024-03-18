@@ -1,0 +1,72 @@
+rm -f *.o pi_serial pi_omp_critical pi_omp_reduction *.data
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -c -O2 -fopenmp pi_serial.c
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -c -O2 -fopenmp walltime.c
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -O2 -fopenmp pi_serial.o walltime.o -o pi_serial
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -c -O2 -fopenmp pi_omp_critical.c
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -O2 -fopenmp pi_omp_critical.o walltime.o -o pi_omp_critical
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -c -O2 -fopenmp pi_omp_reduction.c
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -O2 -fopenmp pi_omp_reduction.o walltime.o -o pi_omp_reduction
+n_threads * N_base =
+1000000
+
+
+n_threads * N_base =
+2000000
+
+
+n_threads * N_base =
+4000000
+
+
+n_threads * N_base =
+8000000
+
+
+n_threads * N_base =
+12000000
+
+
+n_threads * N_base =
+16000000
+
+
+n_threads * N_base =
+24000000
+
+
+n_threads * N_base =
+32000000
+
+
+n_threads * N_base =
+1000000
+
+
+n_threads * N_base =
+2000000
+
+
+n_threads * N_base =
+4000000
+
+
+n_threads * N_base =
+8000000
+
+
+n_threads * N_base =
+12000000
+
+
+n_threads * N_base =
+16000000
+
+
+n_threads * N_base =
+24000000
+
+
+n_threads * N_base =
+32000000
+
+
