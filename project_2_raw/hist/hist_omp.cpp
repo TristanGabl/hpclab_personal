@@ -34,6 +34,7 @@ int main() {
 
   // TODO Parallelize the histogram computation
   time_start = walltime();
+  #pragma omp parallel for reduction(+:dist)
   for (long i = 0; i < VEC_SIZE; ++i) {
     dist[vec[i]]++;
   }

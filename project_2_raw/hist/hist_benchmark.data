@@ -1,0 +1,10 @@
+hist_benchmark.data
+sequential time = 1.401753s
+*average of 10 iterations*
+threads	speedup
+1		0.94369
+2		1.12513
+4		2.23038
+8		2.76721
+16		4.01727
+32		5.16968

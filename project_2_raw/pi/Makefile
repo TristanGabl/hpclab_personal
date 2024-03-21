@@ -26,4 +26,4 @@ walltime.o: walltime.c walltime.h
 
 .PHONY: clean
 clean:
-	$(RM) *.o pi_serial pi_omp_critical pi_omp_reduction *.data
+	$(RM) *.o pi_serial pi_omp_critical pi_omp_reduction 

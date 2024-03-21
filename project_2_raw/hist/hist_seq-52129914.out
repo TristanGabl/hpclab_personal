@@ -1,0 +1,23 @@
+rm -f build/*.o build/hist_seq build/hist_omp *.data
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/g++ -c -O3 -fopenmp hist_seq.cpp -o build/hist_seq.o
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/g++ -c -O3 -fopenmp walltime.c -o build/walltime.o
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/g++ -O3 -fopenmp build/hist_seq.o build/walltime.o -o build/hist_seq
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/g++ -c -O3 -fopenmp hist_omp.cpp -o build/hist_omp.o
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/g++ -O3 -fopenmp build/hist_omp.o build/walltime.o -o build/hist_omp
+dist[0]=93
+dist[1]=3285
+dist[2]=85350
+dist[3]=1260714
+dist[4]=10871742
+dist[5]=54586161
+dist[6]=159818688
+dist[7]=273378694
+dist[8]=273376196
+dist[9]=159818440
+dist[10]=54574824
+dist[11]=10876078
+dist[12]=1261215
+dist[13]=85046
+dist[14]=3397
+dist[15]=77
+Time: 0.46392 sec

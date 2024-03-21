@@ -18,6 +18,8 @@ int main(int argc, char *argv[]) {
 
   double time_start = walltime();
   // TODO: YOU NEED TO PARALLELIZE THIS LOOP
+
+  
   for (n = 0; n <= N; ++n) {
     opt[n] = Sn;
     Sn *= up;

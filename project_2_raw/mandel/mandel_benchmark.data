@@ -1,0 +1,13 @@
+mandel_benchmark.data
+*average of 5 iterations*
+threads	speedup
+1		1.02029
+2		2.17426
+3		1.29907
+4		2.14164
+5		1.80774
+6		2.36899
+7		2.23406
+8		2.61007
+9		2.52998
+10		2.74894

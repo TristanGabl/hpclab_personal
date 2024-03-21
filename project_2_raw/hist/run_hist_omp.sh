@@ -17,4 +17,6 @@ make clean
 make
 
 # Run
-build/hist_seq
+OMP_NUM_THREADS=4
+export OMP_NUM_THREADS
+build/hist_omp

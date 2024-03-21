@@ -5,6 +5,8 @@
 #include <time.h>
 #include <unistd.h>
 
+#include <omp.h>
+
 #include "consts.h"
 #include "pngwriter.h"
 #include "walltime.h" 
@@ -22,11 +24,14 @@ int main(int argc, char **argv) {
   long i, j;
 
   double time_start = walltime();
+  
   // do the calculation
-  cy = MIN_Y;
+#pragma omp parallel for private(i, j, cy, cx, x, y, x2, y2) shared(pPng) reduction(+:nTotalIterationsCount)
   for (j = 0; j < IMAGE_HEIGHT; j++) {
-    cx = MIN_X;
+    cy = MIN_Y + j * fDeltaY;
     for (i = 0; i < IMAGE_WIDTH; i++) {
+       cx = MIN_X + i * fDeltaX;
+
        x = cx;
        y = cy;
        x2 = x * x;
@@ -50,15 +55,16 @@ int main(int argc, char **argv) {
        // n indicates if the point belongs to the mandelbrot set
        // plot the number of iterations at point (i, j)
        int c = ((long)n * 255) / MAX_ITERS;
+#pragma omp critical
+       {
        png_plot(pPng, i, j, c, c, c);
-       cx += fDeltaX;
+       }
     }
-    cy += fDeltaY;
   }
   double time_end = walltime();
 
   // print benchmark data
-  printf("mandel_seq\n");
+  printf("mandel_par\n");
   printf("Total time:                 %g seconds\n",
          (time_end - time_start));
   printf("Image size:                 %ld x %ld = %ld Pixels\n",
@@ -75,6 +81,6 @@ int main(int argc, char **argv) {
   printf("MFlop/s:                    %g\n",
          nTotalIterationsCount * 8.0 / (time_end - time_start) * 1.e-6);
 
-  png_write(pPng, "pngs/mandel_seq.png");
+  png_write(pPng, "pngs/mandel_par.png");
   return 0;
 }
