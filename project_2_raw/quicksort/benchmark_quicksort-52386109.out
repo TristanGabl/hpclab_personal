@@ -1,0 +1,49 @@
+rm -f build/*
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -c -O3 -fopenmp quicksort_omp.c -o build/quicksort_omp.o
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -c -O3 -fopenmp walltime.c -o build/walltime.o
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -O3 -fopenmp build/quicksort_omp.o build/walltime.o -o build/quicksort_omp
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -c -O3 -fopenmp quicksort_seq.c -o build/quicksort_seq.o
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -O3 -fopenmp build/quicksort_seq.o build/walltime.o -o build/quicksort_seq
+threads = 1; time = 0.182614
+threads = 1; time = 0.1827026
+threads = 1; time = 2.137518
+threads = 1; time = 2.152711
+threads = 1; time = 24.79246
+threads = 1; time = 24.88692
+time_seq_collection=[0.1826583, 2.1451145, 24.839689999999997]
+threads = 1; time = 0.2020528
+threads = 1; time = 0.1713091
+threads = 2; time = 0.141358
+threads = 2; time = 0.1356994
+threads = 4; time = 0.08591452
+threads = 4; time = 0.09112733
+threads = 8; time = 0.05343535
+threads = 8; time = 0.05137961
+threads = 16; time = 0.03640191
+threads = 16; time = 0.0466917
+threads = 32; time = 0.08026071
+threads = 32; time = 0.06421125
+threads = 1; time = 2.318337
+threads = 1; time = 2.404963
+threads = 2; time = 2.047159
+threads = 2; time = 2.088761
+threads = 4; time = 0.8733742
+threads = 4; time = 0.8723031
+threads = 8; time = 0.6691097
+threads = 8; time = 0.6670997
+threads = 16; time = 0.4815213
+threads = 16; time = 0.4789004
+threads = 32; time = 0.3293291
+threads = 32; time = 0.3349485
+threads = 1; time = 27.22521
+threads = 1; time = 27.33033
+threads = 2; time = 23.15258
+threads = 2; time = 22.37954
+threads = 4; time = 7.436023
+threads = 4; time = 11.54663
+threads = 8; time = 4.691642
+threads = 8; time = 4.895986
+threads = 16; time = 3.683945
+threads = 16; time = 3.912005
+threads = 32; time = 2.709895
+threads = 32; time = 2.749982

@@ -1,0 +1,7 @@
+rm -f build/*
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -c -O3 -fopenmp quicksort_omp.c -o build/quicksort_omp.o
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -c -O3 -fopenmp walltime.c -o build/walltime.o
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -O3 -fopenmp build/quicksort_omp.o build/walltime.o -o build/quicksort_omp
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -c -O3 -fopenmp quicksort_seq.c -o build/quicksort_seq.o
+/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -O3 -fopenmp build/quicksort_seq.o build/walltime.o -o build/quicksort_seq
+Size of dataset: 10000000, elapsed time[s] 1.539154e+00 
