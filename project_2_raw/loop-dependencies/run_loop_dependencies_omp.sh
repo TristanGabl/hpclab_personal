@@ -17,5 +17,5 @@ make clean
 make
 
 # Run the program with 8 OpenMP threads
-export OMP_NUM_THREADS=2
+export OMP_NUM_THREADS=3
 build/recur_omp

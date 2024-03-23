@@ -18,11 +18,25 @@ int main(int argc, char *argv[]) {
   }
 
   double time_start = walltime();
-  // TODO: YOU NEED TO PARALLELIZE THIS LOOP
-#pragma omp parallel for private(n, Sn) 
-  for (n = 0; n <= N; ++n) {
-    opt[n] = Sn;
-    Sn *= up;
+  // TODO: YOU NEED TO PARALLELIZE THIS LOOP 
+  #pragma omp parallel shared(opt, Sn)
+  {
+    int tid = omp_get_thread_num();
+    int nthreads = omp_get_num_threads();
+    int chunk = N / nthreads;
+    int start = tid * chunk;
+    int end = (tid == nthreads - 1) ? N : start + chunk;
+
+    double Sn_i = Sn * pow(up, start);
+
+    for (n = start; n <= end; ++n) {
+      opt[n] = Sn_i;
+      Sn_i *= up;
+    }
+
+    if (tid == nthreads - 1) {
+      Sn = Sn_i;
+    }
   }
 
   printf("Parallel RunTime  :  %f seconds\n", walltime() - time_start);
