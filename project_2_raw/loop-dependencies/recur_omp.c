@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "walltime.h"
+#include <omp.h>
 
 int main(int argc, char *argv[]) {
   int N = 2000000000;
@@ -18,27 +19,11 @@ int main(int argc, char *argv[]) {
 
   double time_start = walltime();
   // TODO: YOU NEED TO PARALLELIZE THIS LOOP
-
-  #pragma omp parallel shared(opt, Sn)
-  {
-    int nthreads = omp_get_num_threads();
-    int tid = omp_get_thread_num();
-    int section = N / nthreads;
-    int n_begin = tid * section;
-    int n_end = n_begin + section;
-
-    double Sn_private = Sn * pow(up, n_begin);
-    for (n = n_begin; n <= n_end; ++n) {
-      opt[n] = Sn_private;
-      Sn_private *= up;
-    }
-
-
-    {
-      Sn = Sn * pow(up, N);
-    }
+#pragma omp parallel for private(n, Sn) 
+  for (n = 0; n <= N; ++n) {
+    opt[n] = Sn;
+    Sn *= up;
   }
-
 
   printf("Parallel RunTime  :  %f seconds\n", walltime() - time_start);
   printf("Final Result Sn   :  %.17g \n", Sn);
