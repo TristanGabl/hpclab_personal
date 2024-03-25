@@ -1,9 +1,0 @@
-rm -f build/*.o build/recur_seq build/recur_omp
-/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -c -O3 recur_seq.c -o build/recur_seq.o
-/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -c walltime.c -o build/walltime.o
-/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -O3 build/recur_seq.o build/walltime.o -o build/recur_seq
-/cluster/apps/gcc-4.8.5/gcc-11.4.0-xxnwhndqaqpuzs4l4ty4yj5tg2cexcg4/bin/gcc -O3 -lm -fopenmp recur_omp.c build/walltime.o -o build/recur_omp
-Parallel RunTime  :  4.072388 seconds
-Final Result Sn   :  1.0000000099999999 
-Result ||opt||^2_2 :  0.000000
-

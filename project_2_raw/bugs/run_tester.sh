@@ -14,4 +14,4 @@ module list
 
 # Run the program with 8 OpenMP threads
 export OMP_NUM_THREADS=4
-./omp_bug5
+./omp_bug2

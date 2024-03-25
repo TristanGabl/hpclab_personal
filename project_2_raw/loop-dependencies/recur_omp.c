@@ -19,22 +19,23 @@ int main(int argc, char *argv[]) {
 
   double time_start = walltime();
   // TODO: YOU NEED TO PARALLELIZE THIS LOOP 
-  #pragma omp parallel shared(opt, Sn)
+  #pragma omp parallel private(n)
   {
     int tid = omp_get_thread_num();
+    // printf("thread_id: %d \n", tid);
     int nthreads = omp_get_num_threads();
     int chunk = N / nthreads;
     int start = tid * chunk;
-    int end = (tid == nthreads - 1) ? N : start + chunk;
+    int end = (tid + 1 == nthreads) ? N : start + chunk; // last thread has to do the rest
 
-    double Sn_i = Sn * pow(up, start);
+    double Sn_i = Sn * pow(up, start); // skip to Sn^(begin_index)
 
     for (n = start; n <= end; ++n) {
       opt[n] = Sn_i;
       Sn_i *= up;
     }
 
-    if (tid == nthreads - 1) {
+    if (tid + 1 == nthreads) { // again, last thread will have the final Sn_i equal the serial final Sn
       Sn = Sn_i;
     }
   }
