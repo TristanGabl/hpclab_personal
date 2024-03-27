@@ -1,4 +1,4 @@
 *.vscode
-project*gabl_tristan
+project_*_gabl_tristan*
 *.DS_Store
 *build
