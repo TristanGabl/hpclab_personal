@@ -18,6 +18,10 @@
 
 #include <stdio.h>
 
+#ifdef _OPENMP
+    #include <omp.h>
+#endif
+
 #include "data.h"
 #include "linalg.h"
 #include "operators.h"
@@ -92,8 +96,6 @@ static void readcmdline(Discretization& options, int argc, char* argv[]) {
 
 int main(int argc, char* argv[]) {
 
-    int threads = 1;
-
     // read command line arguments
     readcmdline(options, argc, argv);
     int nx = options.nx;
@@ -105,9 +107,19 @@ int main(int argc, char* argv[]) {
     int max_newton_iters = 50;
     double tolerance     = 1.e-6;
 
+
+    int threads = 1;
+    int t = std::stoi(std::getenv("OMP_NUM_THREADS"));
+    threads = std::max(t, threads);
+
     std::cout << std::string(80, '=') << std::endl;
     std::cout << "                      Welcome to mini-stencil!" << std::endl;
-    std::cout << "version   :: C++ Serial" << std::endl;
+    if (threads == 1)
+        std::cout << "version   :: C++ Serial" << std::endl;
+    else {
+        std::cout << "version   :: C++ OpenMP" << std::endl;
+        std::cout << "threads   :: " << threads << std::endl;
+    }
     std::cout << "mesh      :: " << options.nx << " * " << options.nx
                                  << " dx = " << options.dx << std::endl;
     std::cout << "time      :: " << nt << " time steps from 0 .. "
