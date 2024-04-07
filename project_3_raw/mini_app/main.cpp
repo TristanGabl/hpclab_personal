@@ -91,6 +91,9 @@ static void readcmdline(Discretization& options, int argc, char* argv[]) {
 // =============================================================================
 
 int main(int argc, char* argv[]) {
+
+    int threads = 1;
+
     // read command line arguments
     readcmdline(options, argc, argv);
     int nx = options.nx;
