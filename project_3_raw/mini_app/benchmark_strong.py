@@ -44,7 +44,18 @@ def main():
                 time_par += run(n_threads, n_x, n_t) / iterations
             speedups.append(float("{:.6f}".format(time_seq / time_par)))
 
+        # plot speedup with confidence intervals
         plt.plot(threads, speedups, label=f"n_x = {n_x}")
+        # calculate confidence intervals
+        mean = sum(speedups[1:]) / len(speedups[1:])
+        variance = sum((x - mean) ** 2 for x in speedups[1:]) / len(speedups[1:])
+        std_dev = variance ** 0.5
+        upper_bound = [x + 1.96 * std_dev for x in speedups[1:]]
+        lower_bound = [x - 1.96 * std_dev for x in speedups[1:]]
+        
+        plt.fill_between(threads[1:], lower_bound, upper_bound, color='grey', alpha=.1)
+
+        
     
     plt.xlabel("threads")
     plt.ylabel("speedup")
