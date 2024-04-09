@@ -1,0 +1,9 @@
+mini_app_benchmark.data
+sequential time = 1.6865299999999999s
+*average of 3 iterations*
+threads	speedup
+1		1.0
+2		0.792321
+4		0.728919
+8		0.752344
+16		0.849537

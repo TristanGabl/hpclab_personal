@@ -15,5 +15,5 @@ make clean
 make
 
 
-export OMP_NUM_THREADS=64
-build/main 128 100 0.005
+export OMP_NUM_THREADS=8 
+build/main 256 100 0.005
