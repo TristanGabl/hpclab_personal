@@ -43,7 +43,6 @@ def main():
     print("--- benchmark done ---")
     
     plt.plot(threads, speedups)
-    plt.title("mini_app benchmark")
     plt.xlabel("threads")
     plt.ylabel("speedup")
     plt.savefig("mini_app_benchmark.png")      
