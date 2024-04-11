@@ -22,11 +22,12 @@ def run(n_threads: int, n_x: int, n_t: int) -> float:
 def main():
 
     threads = [1,2,4,8,16]
-    N = [64,128]#256,512,1024]
+    #N = [64,128,256]
+    N = [512,1024]
     n_t = 100
 
-    iterations = 2
-    iterations_warm_up = 0
+    iterations = 10
+    iterations_warm_up = 2
 
     for n_x in N:
         time_seq = 0
@@ -36,24 +37,24 @@ def main():
             time_seq += run(threads[0], n_x, n_t) / iterations
         
         speedups = [1.0]
+        # upper_bound = [0.0]
+        # lower_bound = [0.0]
         for n_threads in threads[1:]:
-            time_par = 0
+            times_par = []
             for itr in range(iterations_warm_up):
                 run(n_threads, n_x, n_t)
             for itr in range(iterations):
-                time_par += run(n_threads, n_x, n_t) / iterations
-            speedups.append(float("{:.6f}".format(time_seq / time_par)))
+                times_par.append(run(n_threads, n_x, n_t))
 
-        # plot speedup with confidence intervals
+            mean = time_seq * iterations / sum(times_par)
+            speedups.append(mean)
+            # variance = sum((x - mean) ** 2 for x in times_par) / iterations
+            # std_dev = variance ** 0.5
+            # upper_bound.append(mean + 1.282 * std_dev)
+            # lower_bound.append(mean - 1.282 * std_dev)
+
         plt.plot(threads, speedups, label=f"n_x = {n_x}")
-        # calculate confidence intervals
-        mean = sum(speedups[1:]) / len(speedups[1:])
-        variance = sum((x - mean) ** 2 for x in speedups[1:]) / len(speedups[1:])
-        std_dev = variance ** 0.5
-        upper_bound = [x + 1.96 * std_dev for x in speedups[1:]]
-        lower_bound = [x - 1.96 * std_dev for x in speedups[1:]]
-        
-        plt.fill_between(threads[1:], lower_bound, upper_bound, color='grey', alpha=.1)
+        # plt.fill_between(threads, lower_bound, upper_bound, color='grey', alpha=.15)
 
         
     
