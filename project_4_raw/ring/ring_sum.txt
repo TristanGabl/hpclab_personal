@@ -1,0 +1,136 @@
+0: current sum = 0
+0: sending value 0 to rank 1
+0: current sum = 7
+0: sending value 7 to rank 1
+0: current sum = 13
+0: sending value 6 to rank 1
+0: current sum = 18
+0: sending value 5 to rank 1
+0: current sum = 22
+0: sending value 4 to rank 1
+0: current sum = 25
+0: sending value 3 to rank 1
+0: current sum = 27
+0: sending value 2 to rank 1
+0: current sum = 28
+0: sending value 1 to rank 1
+0:, Comm_size 8: Sum = 28
+1: current sum = 0
+1: sending value 1 to rank 2
+1: current sum = 0
+1: sending value 0 to rank 2
+1: current sum = 7
+1: sending value 7 to rank 2
+1: current sum = 13
+1: sending value 6 to rank 2
+1: current sum = 18
+1: sending value 5 to rank 2
+1: current sum = 22
+1: sending value 4 to rank 2
+1: current sum = 25
+1: sending value 3 to rank 2
+1: current sum = 27
+1: sending value 2 to rank 2
+1:, Comm_size 8: Sum = 28
+2: current sum = 0
+2: sending value 2 to rank 3
+2: current sum = 1
+2: sending value 1 to rank 3
+2: current sum = 1
+2: sending value 0 to rank 3
+2: current sum = 8
+2: sending value 7 to rank 3
+2: current sum = 14
+2: sending value 6 to rank 3
+2: current sum = 19
+2: sending value 5 to rank 3
+2: current sum = 23
+2: sending value 4 to rank 3
+2: current sum = 26
+2: sending value 3 to rank 3
+2:, Comm_size 8: Sum = 28
+3: current sum = 0
+3: sending value 3 to rank 4
+3: current sum = 2
+3: sending value 2 to rank 4
+3: current sum = 3
+3: sending value 1 to rank 4
+3: current sum = 3
+3: sending value 0 to rank 4
+3: current sum = 10
+3: sending value 7 to rank 4
+3: current sum = 16
+3: sending value 6 to rank 4
+3: current sum = 21
+3: sending value 5 to rank 4
+3: current sum = 25
+3: sending value 4 to rank 4
+3:, Comm_size 8: Sum = 28
+4: current sum = 0
+4: sending value 4 to rank 5
+4: current sum = 3
+4: sending value 3 to rank 5
+4: current sum = 5
+4: sending value 2 to rank 5
+4: current sum = 6
+4: sending value 1 to rank 5
+4: current sum = 6
+4: sending value 0 to rank 5
+4: current sum = 13
+4: sending value 7 to rank 5
+4: current sum = 19
+4: sending value 6 to rank 5
+4: current sum = 24
+4: sending value 5 to rank 5
+4:, Comm_size 8: Sum = 28
+5: current sum = 0
+5: sending value 5 to rank 6
+5: current sum = 4
+5: sending value 4 to rank 6
+5: current sum = 7
+5: sending value 3 to rank 6
+5: current sum = 9
+5: sending value 2 to rank 6
+5: current sum = 10
+5: sending value 1 to rank 6
+5: current sum = 10
+5: sending value 0 to rank 6
+5: current sum = 17
+5: sending value 7 to rank 6
+5: current sum = 23
+5: sending value 6 to rank 6
+5:, Comm_size 8: Sum = 28
+6: current sum = 0
+6: sending value 6 to rank 7
+6: current sum = 5
+6: sending value 5 to rank 7
+6: current sum = 9
+6: sending value 4 to rank 7
+6: current sum = 12
+6: sending value 3 to rank 7
+6: current sum = 14
+6: sending value 2 to rank 7
+6: current sum = 15
+6: sending value 1 to rank 7
+6: current sum = 15
+6: sending value 0 to rank 7
+6: current sum = 22
+6: sending value 7 to rank 7
+6:, Comm_size 8: Sum = 28
+7: current sum = 0
+7: sending value 7 to rank 0
+7: current sum = 6
+7: sending value 6 to rank 0
+7: current sum = 11
+7: sending value 5 to rank 0
+7: current sum = 15
+7: sending value 4 to rank 0
+7: current sum = 18
+7: sending value 3 to rank 0
+7: current sum = 20
+7: sending value 2 to rank 0
+7: current sum = 21
+7: sending value 1 to rank 0
+7: current sum = 21
+7: sending value 0 to rank 0
+7:, Comm_size 8: Sum = 28

@@ -59,15 +59,27 @@ int main(int argc, char* argv[]) {
   }
 
   // Partition work evenly among processes
-  int nrows_local = n;
-  int row_beg_local = 0;
-  int row_end_local = row_beg_local + nrows_local - 1;
-  printf("[Proc %3d] Doing rows %d to %d\n", rank, row_beg_local,
-         row_end_local);
   // To do: Partition the "n" rows of the matrix evenly among the "size" MPI
   //        processes.
   // Hint : The first "n % size" processes get "n / size + 1" rows, while the
   //        remaining processes get "n / size".
+  int nrows_local;
+  if (rank < n % size)
+    nrows_local = n / size + 1;
+  else
+    nrows_local = n / size;
+
+  int row_beg_local = 0;
+  for (int i_rank = 0; i_rank < rank; i_rank++) {
+    if (i_rank < n % size)
+      row_beg_local += n / size + 1;
+    else
+      row_beg_local += n / size;
+  }
+  int row_end_local = row_beg_local + nrows_local - 1;
+  printf("[Proc %3d] Doing rows %d to %d\n", rank, row_beg_local,
+         row_end_local);
+
 
   // Initialize matrix A
   double* A = (double*) calloc(nrows_local*n, sizeof(double));
@@ -127,9 +139,11 @@ int main(int argc, char* argv[]) {
     for (int i_global = 0; i_global < n; ++i_global) {
       y[i_global] /= norm;
     }
+
+    MPI_Bcast(y, n, MPI_DOUBLE, 0, MPI_COMM_WORLD);
   }
   // To do: Broadcast the random initial guess vector to all MPI processes.
-  // Hint : MPI_Bcast.
+  // Hint : MPI_Bcast. 
 
   // Power method
   double theta, error;
@@ -155,11 +169,13 @@ int main(int argc, char* argv[]) {
     // Hint: Compute only the local rows, save them in the buffer y_local
     //       and synchronize the result using MPI_Allgather / MPI_Allgatherv.
     for (int i_local = 0; i_local < nrows_local; ++i_local) {
-      y[i_local] = 0.;
+      y_local[i_local] = 0.;
       for (int j_global = 0; j_global < n; ++j_global) {
-        y[i_local] += A[i_local*n + j_global]*v[j_global];
+        y_local[i_local] += A[i_local*n + j_global]*v[j_global];
       }
     }
+    MPI_Allgather(y_local, nrows_local, MPI_DOUBLE, y, nrows_local, MPI_DOUBLE, MPI_COMM_WORLD);
+
     // Compute eigenvalue: theta = v^T y
     theta = 0.;
     for (int i_global = 0; i_global < n; ++i_global) {

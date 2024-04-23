@@ -6,10 +6,10 @@ int ring_iteration(int n_ranks, int rank, int* curr_value, int* prev_value, int*
   int rank_prev = rank == 0 ? n_ranks - 1 : rank - 1;
 
   printf("%d: current sum = %d\n", rank, *sum);
-  MPI_Send((void *) curr_value, 1, MPI_INT, rank_next, 1, MPI_COMM_WORLD);
+  MPI_Send(curr_value, 1, MPI_INT, rank_next, 1, MPI_COMM_WORLD);
 
   printf("%d: sending value %d to rank %d\n", rank, *curr_value, rank_next);
-  MPI_Recv((void *) prev_value, 1, MPI_INT, rank_prev, 1, MPI_COMM_WORLD, status);
+  MPI_Recv(prev_value, 1, MPI_INT, rank_prev, 1, MPI_COMM_WORLD, status);
   
   *sum += *prev_value;
   *curr_value = *prev_value;
@@ -32,7 +32,7 @@ int main(int argc, char *argv[]) {
   for (int i = 0; i < size; i++)
     ring_iteration(size, rank, &curr_value, &prev_value, &sum, &status);
 
-  printf("Process %i, Comm_size %i: Sum = %i\n", rank, size, sum);
+  printf("%i:, Comm_size %i: Sum = %i\n", rank, size, sum);
 
   // Finalize MPI
   MPI_Finalize();

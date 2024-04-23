@@ -2,7 +2,7 @@
 #define CONSTS_H
 
 // maximum number of iterations
-#define MAX_ITERS 35207
+#define MAX_ITERS 1000
 
 // image size
 #define IMAGE_WIDTH  4096
@@ -42,16 +42,24 @@ Partition createPartition(int mpi_rank, int mpi_size) {
     Partition p;
 
     // TODO: determine size of the grid of MPI processes (p.nx, p.ny), see MPI_Dims_create()
-    p.ny = 1;
-    p.nx = 1;
+    int dims[2] = {0,0};
+    int ndims = 2;
+    MPI_Dims_create(mpi_size, ndims, &dims[0]);
+    p.ny = dims[0];
+    p.nx = dims[1];
 
     // TODO: Create cartesian communicator (p.comm), we do not allow the reordering of ranks here, see MPI_Cart_create()
-    MPI_Comm comm_cart = MPI_COMM_WORLD;
+    MPI_Comm comm_cart;
+    int periods[2] = {0,0};
+    int reorder = 0;
+    MPI_Cart_create(MPI_COMM_WORLD, ndims, dims, periods, reorder, &comm_cart);
     p.comm = comm_cart;
     
     // TODO: Determine the coordinates in the Cartesian grid (p.x, p.y), see MPI_Cart_coords()
-    p.y = 0;
-    p.x = 0;
+    int coords[2] = {0,0};
+    MPI_Cart_coords(comm_cart, mpi_rank, ndims, &coords[0]);
+    p.y = coords[0];
+    p.x = coords[1];
 
     return p;
 }
@@ -71,8 +79,11 @@ Partition updatePartition(Partition p_old, int mpi_rank) {
     p.comm = p_old.comm;
     
     // TODO: update the coordinates in the cartesian grid (p.x, p.y) for given mpi_rank, see MPI_Cart_coords()
-    p.y = 0;
-    p.x = 0;
+    int ndims = 2;
+    int coords[2] = {0,0};
+    MPI_Cart_coords(p.comm, mpi_rank, ndims, &coords[0]);
+    p.y = coords[0];
+    p.x = coords[1];
 
     return p;
 }
@@ -89,16 +100,16 @@ Domain createDomain(Partition p) {
     Domain d;
     
     // TODO: compute size of the local domain
-    d.nx = IMAGE_WIDTH;
-    d.ny = IMAGE_HEIGHT;
+    d.nx = IMAGE_WIDTH / p.nx;
+    d.ny = IMAGE_HEIGHT / p.ny;
 
     // TODO: compute index of the first pixel in the local domain
-    d.startx = 0;
-    d.starty = 0;
+    d.startx = p.x * d.nx;
+    d.starty = p.y * d.ny;
 
     // TODO: compute index of the last pixel in the local domain
-    d.endx = IMAGE_WIDTH - 1;
-    d.endy = IMAGE_HEIGHT - 1;
+    d.endx = d.startx + d.nx - 1;
+    d.endy = d.starty + d.ny - 1;
 
     return d;
 }

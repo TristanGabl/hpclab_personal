@@ -52,10 +52,10 @@ def powermethod(A, y, niter, tol, verbose=False):
 
 
 if __name__ == "__main__":
-    n = 5
+    n = 30
     rng = np.random.default_rng(42)
-    A = np.ones((n, n))
-    # A = rng.random((n, n))
+    #A = np.ones((n, n))
+    A = rng.random((n, n))
     y = rng.random(n)
     theta, y = powermethod(A, y, 10, 1.e-15, verbose=True)
     print(f"Power method: {theta = }, {y = }")
