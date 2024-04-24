@@ -1,0 +1,32 @@
+rm -f *.o powermethod_rows
+mpicc -c -O3  powermethod_rows.c
+mpicc -c -O3  walltime.c
+mpicc -lm  powermethod_rows.o walltime.o -o powermethod_rows
+np = 1; time = 3.631986
+np = 1; time = 3.547541
+np = 1; time = 3.404104
+np = 1; time = 3.478777
+np = 2; time = 1.968764
+np = 2; time = 1.941794
+np = 2; time = 1.958926
+np = 2; time = 1.990175
+np = 4; time = 1.060845
+np = 4; time = 1.173952
+np = 4; time = 1.187302
+np = 4; time = 1.170676
+np = 8; time = 0.630768
+np = 8; time = 0.631594
+np = 8; time = 0.787828
+np = 8; time = 0.652998
+np = 16; time = 0.579672
+np = 16; time = 0.720662
+np = 16; time = 0.743551
+np = 16; time = 0.80412
+np = 32; time = 0.914562
+np = 32; time = 0.389831
+np = 32; time = 0.720688
+np = 32; time = 0.541345
+np = 64; time = 1.413764
+np = 64; time = 1.09268
+np = 64; time = 0.364811
+np = 64; time = 0.341403

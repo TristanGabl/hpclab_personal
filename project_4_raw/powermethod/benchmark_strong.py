@@ -8,7 +8,7 @@ def run(np: int, n_x: int, n_t: int) -> float:
     # we call subprocess with the desired variables
     # mpirun -np np ./powermethod_rows 3 n_x n_t -1e-6
     output = subprocess.check_output(
-        ["mpirun", "-np", f"{np}", "./powermethod_rows", 3, f"{n_x}", f"{n_t}", "-1e-6"],
+        ["mpirun", "-np", f"{np}", "./powermethod_rows", "3", f"{n_x}", f"{n_t}", "-1e-6"],
     ).decode("utf-8")
     
     # extract the time
@@ -20,12 +20,12 @@ def run(np: int, n_x: int, n_t: int) -> float:
 
 def main():
 
-    threads = [1,2,4,8,16, 32, 64]
+    threads = [1,2,4,8,16,32,64]
     n_x = 1000
     n_t = 3000
 
-    iterations = 1
-    iterations_warm_up = 1
+    iterations = 10
+    iterations_warm_up = 2
 
     
     time_seq = 0
@@ -45,13 +45,13 @@ def main():
         mean = time_seq * iterations / sum(times_par)
         speedups.append(mean)
 
-    plt.plot(threads, speedups, label=f"n_x = {n_x}")
+    plt.plot(threads, speedups, label=f"n = {n_x}")
     
 
     plt.xlabel("threads")
     plt.ylabel("speedup")
     plt.legend()
-    plt.savefig("powermethod_benchmark_strong.png")
+    plt.savefig("powermethod_benchmark_strong_.png")
     
 
 
