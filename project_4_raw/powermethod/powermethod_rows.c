@@ -77,8 +77,8 @@ int main(int argc, char* argv[]) {
     row_end_local = row_beg_local + nrows_local - 1;
   }
 
-  printf("[Proc %3d] Doing rows %d to %d, nrows_local = %d\n", rank, row_beg_local,
-         row_end_local, nrows_local);
+  // printf("[Proc %3d] Doing rows %d to %d, nrows_local = %d\n", rank, row_beg_local,
+  //        row_end_local, nrows_local);
   
   // get displacements
   int displacements[size];
@@ -96,16 +96,16 @@ int main(int argc, char* argv[]) {
       disp += n / size;
     }
   }
-  printf("displacements[]:\n");
-  for (int i = 0; i < size; i++) {
-    printf("%d ", displacements[i]);
-  }
-  printf("\n");
-  printf("counts[]:\n");
-  for (int i = 0; i < size; i++) {
-    printf("%d ", counts[i]);
-  }
-  printf("\n");
+  // printf("displacements[]:\n");
+  // for (int i = 0; i < size; i++) {
+  //   printf("%d ", displacements[i]);
+  // }
+  // printf("\n");
+  // printf("counts[]:\n");
+  // for (int i = 0; i < size; i++) {
+  //   printf("%d ", counts[i]);
+  // }
+  // printf("\n");
 
   // Initialize matrix A
   double* A = (double*) calloc(nrows_local*n, sizeof(double));
@@ -129,7 +129,7 @@ int main(int argc, char* argv[]) {
           break;
         case 3:
           // Test case 3: A(i, j) = i if i == j for 1 <= i, j <= n
-          //              theta = n
+          //              theta = n - 1
           if ( i_global == j_global ) {
             A[i_local*n + j_global] = i_global;
           } else {
@@ -220,6 +220,7 @@ int main(int argc, char* argv[]) {
   double time_end = walltime();
 
   // Report result
+  //MPI_Barrier(MPI_COMM_WORLD);
   if (rank == 0) {
     if (iter < niter) {
       printf("Power method: Converged in ");
