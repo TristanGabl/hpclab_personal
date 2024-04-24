@@ -59,27 +59,53 @@ int main(int argc, char* argv[]) {
   }
 
   // Partition work evenly among processes
+  int nrows_local = n;
+  int row_beg_local = 0;
+  int row_end_local = row_beg_local + nrows_local - 1;
   // To do: Partition the "n" rows of the matrix evenly among the "size" MPI
   //        processes.
   // Hint : The first "n % size" processes get "n / size + 1" rows, while the
   //        remaining processes get "n / size".
-  int nrows_local;
-  if (rank < n % size)
+  if (rank < n % size) {
     nrows_local = n / size + 1;
-  else
-    nrows_local = n / size;
-
-  int row_beg_local = 0;
-  for (int i_rank = 0; i_rank < rank; i_rank++) {
-    if (i_rank < n % size)
-      row_beg_local += n / size + 1;
-    else
-      row_beg_local += n / size;
+    row_beg_local = nrows_local * rank;
+    row_end_local = row_beg_local + nrows_local - 1;
   }
-  int row_end_local = row_beg_local + nrows_local - 1;
-  printf("[Proc %3d] Doing rows %d to %d\n", rank, row_beg_local,
-         row_end_local);
+  else {
+    nrows_local = n / size;
+    row_beg_local = (n % size) * (nrows_local + 1) + (rank - (n % size)) * nrows_local;
+    row_end_local = row_beg_local + nrows_local - 1;
+  }
 
+  printf("[Proc %3d] Doing rows %d to %d, nrows_local = %d\n", rank, row_beg_local,
+         row_end_local, nrows_local);
+  
+  // get displacements
+  int displacements[size];
+  int counts[size];
+  int disp = 0;
+  for (int i = 0; i < size; i++) {
+    if (i < n % size) {
+      displacements[i] = disp;
+      counts[i] = n / size + 1;
+      disp += n / size + 1;
+    }
+    else {
+      displacements[i] = disp;
+      counts[i] = n / size;
+      disp += n / size;
+    }
+  }
+  printf("displacements[]:\n");
+  for (int i = 0; i < size; i++) {
+    printf("%d ", displacements[i]);
+  }
+  printf("\n");
+  printf("counts[]:\n");
+  for (int i = 0; i < size; i++) {
+    printf("%d ", counts[i]);
+  }
+  printf("\n");
 
   // Initialize matrix A
   double* A = (double*) calloc(nrows_local*n, sizeof(double));
@@ -173,7 +199,7 @@ int main(int argc, char* argv[]) {
         y_local[i_local] += A[i_local*n + j_global]*v[j_global];
       }
     }
-    MPI_Allgather(y_local, nrows_local, MPI_DOUBLE, y, nrows_local, MPI_DOUBLE, MPI_COMM_WORLD);
+    MPI_Allgatherv(y_local, nrows_local, MPI_DOUBLE, y, counts, displacements, MPI_DOUBLE, MPI_COMM_WORLD);
 
     // Compute eigenvalue: theta = v^T y
     theta = 0.;
@@ -213,6 +239,7 @@ int main(int argc, char* argv[]) {
   free(y);
   free(y_local);
   free(v);
+
 
   // Finalize MPI
   MPI_Finalize();
