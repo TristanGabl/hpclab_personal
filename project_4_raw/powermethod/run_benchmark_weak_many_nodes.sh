@@ -13,6 +13,7 @@
 # Load some modules & list loaded modules
 module load gcc openmpi python
 
+export ONE_MANY_NODE=many_nodes
 python benchmark_weak.py
-echo "run_benchmark_weak done!"
+echo "run_benchmark_weak_many_nodes done!"
 

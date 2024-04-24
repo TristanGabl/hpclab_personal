@@ -13,6 +13,7 @@
 # Load some modules & list loaded modules
 module load gcc openmpi python
 
+export ONE_MANY_NODE=many_nodes
 python benchmark_strong.py
-echo "run_benchmark_strong done!"
+echo "run_benchmark_strong_many_nodes done!"
 
