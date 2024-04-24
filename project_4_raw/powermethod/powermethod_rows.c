@@ -139,9 +139,8 @@ int main(int argc, char* argv[]) {
     for (int i_global = 0; i_global < n; ++i_global) {
       y[i_global] /= norm;
     }
-
-    MPI_Bcast(y, n, MPI_DOUBLE, 0, MPI_COMM_WORLD);
   }
+  MPI_Bcast(y, n, MPI_DOUBLE, 0, MPI_COMM_WORLD);
   // To do: Broadcast the random initial guess vector to all MPI processes.
   // Hint : MPI_Bcast. 
 
