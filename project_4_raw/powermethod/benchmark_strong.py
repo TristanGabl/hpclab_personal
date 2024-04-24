@@ -21,12 +21,11 @@ def run(np: int, n_x: int, n_t: int) -> float:
 def main():
 
     threads = [1,2,4,8,16,32,64]
-    n_x = 1000
+    n_x = 10000
     n_t = 3000
 
     iterations = 10
     iterations_warm_up = 2
-
     
     time_seq = 0
     for itr in range(iterations_warm_up):
@@ -51,7 +50,7 @@ def main():
     plt.xlabel("threads")
     plt.ylabel("speedup")
     plt.legend()
-    plt.savefig("powermethod_benchmark_strong_.png")
+    plt.savefig("powermethod_benchmark_strong_one_node.png")
     
 
 

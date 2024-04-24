@@ -1,0 +1,22 @@
+np = 1; time = 3.679401
+np = 1; time = 3.438509
+np = 1; time = 3.451974
+np = 2; time = 4.656499
+np = 2; time = 3.253128
+np = 2; time = 3.070203
+np = 4; time = 4.159713
+np = 4; time = 3.801492
+np = 4; time = 4.006224
+np = 8; time = 4.395768
+np = 8; time = 5.073982
+np = 8; time = 4.963868
+np = 16; time = 7.870735
+np = 16; time = 7.926181
+np = 16; time = 8.256441
+np = 32; time = 8.308166
+np = 32; time = 8.363501
+np = 32; time = 8.606016
+np = 64; time = 20.105946
+np = 64; time = 22.061943
+np = 64; time = 15.574392
+run_benchmark_weak done!

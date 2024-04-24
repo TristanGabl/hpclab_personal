@@ -22,11 +22,11 @@ def run(np: int, n_x: int, n_t: int) -> float:
 def main():
 
     threads = [1,2,4,8,16,32,64]
-    n_x = 1000
-    n_t = 100
+    n_x = 2000
+    n_t = 3000
 
-    iterations = 1
-    iterations_warm_up = 1
+    iterations = 10
+    iterations_warm_up = 2
 
     time_seq = 0
     for itr in range(iterations_warm_up):
@@ -44,11 +44,12 @@ def main():
 
         efficiency.append(time_seq * iterations / sum(times_par))
 
-    plt.plot(threads, efficiency)
+    plt.plot(threads, efficiency, label=f"n per proc = {n_x}")
 
     plt.xlabel("threads")
     plt.ylabel("efficiency")
-    plt.savefig("powermethod_benchmark_weak.png")
+    plt.legend()
+    plt.savefig("powermethod_benchmark_weak_one_node.png")
     
 
 
