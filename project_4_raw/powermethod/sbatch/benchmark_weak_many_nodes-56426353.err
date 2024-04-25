@@ -1,0 +1,11 @@
+
+The following have been reloaded with a version change:
+  1) gcc/4.8.5 => gcc/11.4.0
+
+Traceback (most recent call last):
+  File "/cluster/scratch/trgabl/hpclab_personal/project_4_raw/powermethod/benchmark_weak.py", line 62, in <module>
+    main()
+  File "/cluster/scratch/trgabl/hpclab_personal/project_4_raw/powermethod/benchmark_weak.py", line 52, in main
+    if os.environ.get("ONE_MANY_NODE") == "one_node":
+       ^^
+NameError: name 'os' is not defined

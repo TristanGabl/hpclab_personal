@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH --job-name=benchmark_weak      # Job name    (default: sbatch)
-#SBATCH --output=sbatch/benchmark_weak-%j.out # Output file (default: slurm-%j.out)
-#SBATCH --error=sbatch/benchmark_weak-%j.err  # Error file  (default: slurm-%j.out)
+#SBATCH --job-name=weak_one      # Job name    (default: sbatch)
+#SBATCH --output=sbatch/benchmark_weak_one_node-%j.out # Output file (default: slurm-%j.out)
+#SBATCH --error=sbatch/benchmark_weak_one_node-%j.err  # Error file  (default: slurm-%j.out)
 #SBATCH --ntasks=64                # Number of tasks
 #SBATCH --nodes=1                 # Number of nodes
 #SBATCH --ntasks-per-node=64       # Number of tasks per node

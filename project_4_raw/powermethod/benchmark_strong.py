@@ -57,7 +57,7 @@ def main():
     elif os.environ.get("ONE_MANY_NODE") == "many_nodes":
         plt.savefig("powermethod_benchmark_strong_many_nodes.png")
     else:
-        plt.savefig("powermethod_benchmark_strong_one_node.png")
+        plt.savefig("powermethod_benchmark_strong.png")
 
 
 if __name__ == "__main__":

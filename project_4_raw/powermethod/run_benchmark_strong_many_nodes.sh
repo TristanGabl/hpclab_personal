@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH --job-name=benchmark_strong      # Job name    (default: sbatch)
-#SBATCH --output=sbatch/benchmark_strong-%j.out # Output file (default: slurm-%j.out)
-#SBATCH --error=sbatch/benchmark_strong-%j.err  # Error file  (default: slurm-%j.out)
+#SBATCH --job-name=strong_many      # Job name    (default: sbatch)
+#SBATCH --output=sbatch/benchmark_strong_many_nodes-%j.out # Output file (default: slurm-%j.out)
+#SBATCH --error=sbatch/benchmark_strong_many_nodes-%j.err  # Error file  (default: slurm-%j.out)
 #SBATCH --ntasks=64                # Number of tasks
 #SBATCH --nodes=64                 # Number of nodes
 #SBATCH --ntasks-per-node=1       # Number of tasks per node

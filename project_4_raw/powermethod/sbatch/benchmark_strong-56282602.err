@@ -1,0 +1,23 @@
+
+Inactive Modules:
+  1) code-server/4.16.1     2) git/2.31.1
+
+The following have been reloaded with a version change:
+  1) gcc/8.2.0 => gcc/11.4.0                3) python/3.8.5 => python/3.11.6
+  2) openblas/0.2.20 => openblas/0.3.20
+
+Traceback (most recent call last):
+  File "/cluster/scratch/trgabl/hpclab_personal/project_4_raw/powermethod/benchmark_strong.py", line 64, in <module>
+    main()
+  File "/cluster/scratch/trgabl/hpclab_personal/project_4_raw/powermethod/benchmark_strong.py", line 41, in main
+    run(n_threads, n_x, n_t)
+  File "/cluster/scratch/trgabl/hpclab_personal/project_4_raw/powermethod/benchmark_strong.py", line 11, in run
+    output = subprocess.check_output(
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cluster/apps/nss/gcc-11.4.0/python/3.11.6/x86_64/lib64/python3.11/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cluster/apps/nss/gcc-11.4.0/python/3.11.6/x86_64/lib64/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['mpirun', '-np', '64', './powermethod_rows', '3', '10000', '3000', '-1e-6']' died with <Signals.SIGKILL: 9>.
+slurmstepd: error: Detected 1 oom_kill event in StepId=56282602.batch. Some of the step tasks have been OOM Killed.

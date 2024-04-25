@@ -2,3 +2,4 @@
 Activating Modules:
   1) openblas/0.3.20     2) python/3.11.6
 
+slurmstepd: error: *** JOB 56260398 ON eu-a2p-277 CANCELLED AT 2024-04-24T19:50:01 ***

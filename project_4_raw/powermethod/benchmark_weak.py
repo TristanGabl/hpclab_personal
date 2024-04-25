@@ -49,7 +49,12 @@ def main():
     plt.xlabel("threads")
     plt.ylabel("efficiency")
     plt.legend()
-    plt.savefig("powermethod_benchmark_weak_one_node.png")
+    if os.environ.get("ONE_MANY_NODE") == "one_node":
+        plt.savefig("powermethod_benchmark_weak_one_node.png")
+    elif os.environ.get("ONE_MANY_NODE") == "many_nodes":
+        plt.savefig("powermethod_benchmark_weak_many_nodes.png")
+    else:
+        plt.savefig("powermethod_benchmark_weak.png")
     
 
 
