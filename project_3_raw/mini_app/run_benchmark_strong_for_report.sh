@@ -12,8 +12,5 @@
 module load gcc
 module load python
 
-make clean
-make
-
 python benchmark_strong.py
 
