@@ -38,9 +38,9 @@ def main():
         for n_x in N:
             time_seq = 0
             for itr in range(iterations_warm_up):
-                run(threads[0], n_x, n_t)
+                run(threads[0], n_x, n_t, type="open_mpi")
             for itr in range(iterations):
-                time_seq += run(threads[0], n_x, n_t) / iterations
+                time_seq += run(threads[0], n_x, n_t, type="open_mpi") / iterations
             
             speedups = [1.0]
             upper_bound = [0.0]
@@ -78,9 +78,9 @@ def main():
                 for n_threads in threads[1:]:
                     times_par = []
                     for itr in range(iterations_warm_up):
-                        run(n_threads, n_x, n_t)
+                        run(n_threads, n_x, n_t, type="open_mp")
                     for itr in range(iterations):
-                        times_par.append(run(n_threads, n_x, n_t))
+                        times_par.append(run(n_threads, n_x, n_t, type="open_mp"))
 
                     mean = time_seq * iterations / sum(times_par)
                     speedups.append(mean)
