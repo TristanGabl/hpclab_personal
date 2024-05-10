@@ -17,8 +17,9 @@ def run(n_threads: int, n_x: int, n_t: int, type: str) -> float:
             env={"OMP_NUM_THREADS": str(n_threads)}
         ).decode("utf-8")
 
-    time = float(output.split()[-2])
-    threads = int((output.split()[-7]).rstrip(","))
+    # extract from second last row the time
+    time = float(output.split()[-3])
+    threads = int((output.split()[-8]).rstrip(","))
     print(f"type = {type}; np = {threads}; time = {time}")
     return time
 
