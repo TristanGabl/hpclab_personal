@@ -31,7 +31,6 @@ def main():
     iterations_warm_up = 1
 
     for i,N in enumerate(Ns):
-        # clear plot
         plt.clf()
         for n_x in N:
             time_seq = 0
