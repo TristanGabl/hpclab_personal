@@ -25,8 +25,8 @@ def run(n_threads: int, n_x: int, n_t: int, type: str) -> float:
 
 def main():
 
-    threads = [1,2,4,8,16]
-    Ns = [[64,128,256], [512,1024]]
+    threads = [1,2,4]
+    Ns = [[64,128], [256]]
     n_t = 100
 
     iterations = 2
