@@ -11,6 +11,7 @@
 # Load some modules & list loaded modules
 module load gcc
 module load openmpi
+module load python
 
 
 python benchmark_strong.py
