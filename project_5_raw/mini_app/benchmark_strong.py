@@ -29,6 +29,9 @@ def main():
     Ns = [[64,128], [256]]
     n_t = 100
 
+    colors = ["blue", "orange", "green", "red", "purple", "brown", "pink", "gray", "olive", "cyan"]
+    color_count = 0
+
     iterations = 2
     iterations_warm_up = 1
 
@@ -54,16 +57,17 @@ def main():
 
                 mean = time_seq * iterations / sum(times_par)
                 speedups.append(mean)
-                # remove outliers if time is more than 5 times away from the mean
-                times_par = [time for time in times_par if abs(time - mean) < 5 * mean]
+                # remove outliers if time is more than 3 times away from the mean (i know this is not scientificly correct, but the confidence interval is crazy big otherwise)
+                times_par = [time for time in times_par if abs(time - mean) < 3 * mean]
                 variance = sum((x - mean) ** 2 for x in times_par) / iterations
                 std_dev = variance ** 0.5
                 # use 90% confidence interval
                 upper_bound.append(mean + 1.645 * std_dev)
                 lower_bound.append(mean - 1.645 * std_dev)
 
-            plt.plot(threads, speedups, label=f"open_mpi, n_x = {n_x}")
-            plt.fill_between(threads, lower_bound, upper_bound, color='grey', alpha=.15)
+            plt.plot(threads, speedups, label=f"open_mpi, n_x = {n_x}", color=colors[color_count])
+            plt.fill_between(threads, lower_bound, upper_bound, color=colors[color_count], alpha=.15)
+            color_count += 1
 
             for n_x in N:
                 time_seq = 0
@@ -84,17 +88,17 @@ def main():
 
                     mean = time_seq * iterations / sum(times_par)
                     speedups.append(mean)
-                    # remove outliers if time is more than 5 times away from the mean
-                    times_par = [time for time in times_par if abs(time - mean) < 5 * mean]
+                    # remove outliers if time is more than 3 times away from the mean (i know this is not scientificly correct, but the confidence interval is crazy big otherwise)
+                    times_par = [time for time in times_par if abs(time - mean) < 3 * mean]
                     variance = sum((x - mean) ** 2 for x in times_par) / iterations
                     std_dev = variance ** 0.5
                     # use 90% confidence interval
                     upper_bound.append(mean + 1.645 * std_dev)
                     lower_bound.append(mean - 1.645 * std_dev)
                     
-
-                plt.plot(threads, speedups, label=f"open_mp, n_x = {n_x}")
-                plt.fill_between(threads, lower_bound, upper_bound, color='grey', alpha=.15)
+            plt.plot(threads, speedups, label=f"open_mp, n_x = {n_x}", color=colors[color_count])
+            plt.fill_between(threads, lower_bound, upper_bound, color=colors[color_count], alpha=.15)
+            color_count += 1
 
 
         plt.xlabel("threads")
