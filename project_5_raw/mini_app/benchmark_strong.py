@@ -8,12 +8,11 @@ def run(n_threads: int, n_x: int, n_t: int, type: str) -> float:
     # we call subprocess with the desired variables
     if type == "open_mpi":
         output = subprocess.check_output(
-            ["mpirun", "-np", f"{n_threads}", "build/main", f"{n_x}", f"{n_t}", "0.005"]
+            ["mpirun", "-np", f"{n_threads}", "./build/main", f"{n_x}", f"{n_t}", "0.005"]
         ).decode("utf-8")
-
     elif type == "open_mp":
         output = subprocess.check_output(
-            ["build/main_openmp", f"{n_x}", f"{n_t}", "0.005"],
+            ["./build/main_openmp", f"{n_x}", f"{n_t}", "0.005"],
             env={"OMP_NUM_THREADS": str(n_threads)}
         ).decode("utf-8")
 
