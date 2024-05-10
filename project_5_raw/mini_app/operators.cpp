@@ -57,20 +57,20 @@ void diffusion(data::Field const& s_old, data::Field const& s_new,
 
     int count = 0;
     if (domain.neighbour_north >= 0) {
-        MPI_Isend(&buffN[0], nx, MPI_DOUBLE, domain.neighbour_north, 1, domain.comm_cart, &request [count++]);
-        MPI_Irecv(&bndN[0], nx, MPI_DOUBLE, domain.neighbour_north, 2, domain.comm_cart, &request [count++]);
+        MPI_Isend(&buffN[0], nx, MPI_DOUBLE, domain.neighbour_north, 1, domain.comm_cart, &request[count++]);
+        MPI_Irecv(&bndN[0], nx, MPI_DOUBLE, domain.neighbour_north, 2, domain.comm_cart, &request[count++]);
     }
     if (domain.neighbour_south >= 0) {
-        MPI_Isend(&buffS[0], nx, MPI_DOUBLE, domain.neighbour_south, 2, domain.comm_cart, &request [count++]);
-        MPI_Irecv(&bndS[0], nx, MPI_DOUBLE, domain.neighbour_south, 1, domain.comm_cart, &request [count++]);
+        MPI_Isend(&buffS[0], nx, MPI_DOUBLE, domain.neighbour_south, 2, domain.comm_cart, &request[count++]);
+        MPI_Irecv(&bndS[0], nx, MPI_DOUBLE, domain.neighbour_south, 1, domain.comm_cart, &request[count++]);
     }
     if (domain.neighbour_west >= 0) {
-        MPI_Isend(&buffW[0], ny, MPI_DOUBLE, domain.neighbour_west, 3, domain.comm_cart, &request [count++]);
-        MPI_Irecv(&bndW[0], ny, MPI_DOUBLE, domain.neighbour_west, 4, domain.comm_cart, &request [count++]);
+        MPI_Isend(&buffW[0], ny, MPI_DOUBLE, domain.neighbour_west, 3, domain.comm_cart, &request[count++]);
+        MPI_Irecv(&bndW[0], ny, MPI_DOUBLE, domain.neighbour_west, 4, domain.comm_cart, &request[count++]);
     }
     if (domain.neighbour_east >= 0) {
-        MPI_Isend(&buffE[0], ny, MPI_DOUBLE, domain.neighbour_east, 4, domain.comm_cart, &request [count++]);
-        MPI_Irecv(&bndE[0], ny, MPI_DOUBLE, domain.neighbour_east, 3, domain.comm_cart, &request [count++]);
+        MPI_Isend(&buffE[0], ny, MPI_DOUBLE, domain.neighbour_east, 4, domain.comm_cart, &request[count++]);
+        MPI_Irecv(&bndE[0], ny, MPI_DOUBLE, domain.neighbour_east, 3, domain.comm_cart, &request[count++]);
     }
 
     MPI_Waitall(count, request , MPI_STATUSES_IGNORE);
