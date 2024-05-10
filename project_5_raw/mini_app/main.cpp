@@ -34,9 +34,38 @@ using namespace stats;
 void write_binary(std::string fname, Field &u, SubDomain &domain,
                   Discretization &options) {
     // TODO: Implement output with MPI-IO
-    FILE* output = fopen(fname.c_str(), "w");
-    fwrite(u.data(), sizeof(double), options.nx * options.nx, output);
-    fclose(output);
+
+    char* cstr = const_cast<char*>(fname.c_str());
+
+    // Open file
+    MPI_File filehandle;
+    MPI_File_open(MPI_COMM_WORLD, cstr, MPI_MODE_CREATE | MPI_MODE_WRONLY,
+                    MPI_INFO_NULL, &filehandle);
+
+    // Create sub-array type (each process writes its sub-domain part into the
+    // file containing (full!) domain)
+    // Note the row-major order storage format (C order)
+    int sizes[2]    = {options.nx, options.nx};
+    int subsizes[2] = {domain.nx, domain.ny};
+    int start[2]    = {domain.startx-1, domain.starty-1};
+
+    MPI_Datatype filetype;
+    MPI_Type_create_subarray(2, sizes, subsizes, start, MPI_ORDER_FORTRAN, MPI_DOUBLE,
+                            &filetype);
+    MPI_Type_commit(&filetype);
+
+    // Set view and write file
+    MPI_Offset disp = 0;
+    MPI_File_set_view(filehandle, disp, MPI_DOUBLE, filetype, "native",
+                        MPI_INFO_NULL);
+    MPI_File_write_all(filehandle, &y_new[0], domain.nx * domain.ny, MPI_DOUBLE,
+                        MPI_STATUS_IGNORE);
+
+    // Free file type
+    MPI_Type_free(&filetype);
+
+    // Close file
+    MPI_File_close(&filehandle); 
 }
 
 // read command line arguments
@@ -110,27 +139,33 @@ int main(int argc, char* argv[]) {
 
     // TODO: initialize MPI
     int size = 1, rank = 0;
+    MPI_Init(&argc, &argv);
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+    MPI_Comm_size(MPI_COMM_WORLD, &size);
 
     // TODO: initialize sub-domain (data.{h,cpp})
     domain.init(rank, size, options);
-    // domain.print(); // for debugging
+    domain.print(); // for debugging
     int nx = domain.nx;
     int ny = domain.ny;
     int N  = domain.N;
     int nt  = options.nt;
 
     // TODO: Modify welcome message
-    std::cout << std::string(80, '=') << std::endl;
-    std::cout << "                      Welcome to mini-stencil!" << std::endl;
-    std::cout << "version   :: C++ Serial" << std::endl;
-    std::cout << "mesh      :: " << options.nx << " * " << options.nx
-                                 << " dx = " << options.dx << std::endl;
-    std::cout << "time      :: " << nt << " time steps from 0 .. "
-                                       << options.nt*options.dt << std::endl;
-    std::cout << "iteration :: " << "CG "          << max_cg_iters
-                                 << ", Newton "    << max_newton_iters
-                                 << ", tolerance " << tolerance << std::endl;
-    std::cout << std::string(80, '=') << std::endl;
+    if (rank == 0) {
+        std::cout << std::string(80, '=') << std::endl;
+        std::cout << "                      Welcome to mini-stencil!" << std::endl;
+        std::cout << "version   :: C++ MPI" << std::endl;
+        std::cout << "processes :: " << size << std::endl;
+        std::cout << "mesh      :: " << options.nx << " * " << options.nx
+                                    << " dx = " << options.dx << std::endl;
+        std::cout << "time      :: " << nt << " time steps from 0 .. "
+                                        << options.nt*options.dt << std::endl;
+        std::cout << "iteration :: " << "CG "          << max_cg_iters
+                                    << ", Newton "    << max_newton_iters
+                                    << ", tolerance " << tolerance << std::endl;
+        std::cout << std::string(80, '=') << std::endl;
+    }
 
     // allocate global fields
     y_new.init(nx, ny);
@@ -163,16 +198,16 @@ int main(int argc, char* argv[]) {
     double xc = 1.0 / 4.0;
     double yc = 1.0 / 4.0;
     double radius = std::min(xc, yc) / 2.0;
-    for (int j = domain.starty-1; j < domain.endy; j++) {
+    for (int j = domain.starty - 1; j < domain.endy; j++) {
         double y = (j - 1) * options.dx;
-        for (int i = domain.startx-1; i < domain.endx; i++) {
+        for (int i = domain.startx - 1; i < domain.endx; i++) {
             double x = (i - 1) * options.dx;
             if ((x - xc) * (x - xc) + (y - yc) * (y - yc) < radius * radius) {
-                y_new(i-domain.startx+1,j-domain.starty+1) = inner_circle;
+                y_new(i - domain.startx + 1, j - domain.starty + 1) = inner_circle;
             }
         }
     }
-
+    
     iters_cg = 0;
     iters_newton = 0;
 
@@ -212,7 +247,7 @@ int main(int argc, char* argv[]) {
         iters_newton += it+1;
 
         // output some statistics
-        if (converged && verbose_output) {
+        if (converged && verbose_output && rank == 0) {
             std::cout << "step " << timestep
                       << " required " << it
                       << " iterations for residual " << residual
@@ -234,11 +269,12 @@ int main(int argc, char* argv[]) {
 
     // binary data
     // TODO: Implement write_binary using MPI-IO
-    write_binary("output.bin", y_old, domain, options);
+    if (verbose_output)
+        write_binary("output.bin", y_new, domain, options);
 
     // metadata
     // TODO: Only once process should do the following
-    {
+    if (rank == 0) {
         std::ofstream fid("output.bov");
         fid << "TIME: " << options.nt*options.dt << std::endl;
         fid << "DATA_FILE: output.bin" << std::endl;
@@ -258,7 +294,7 @@ int main(int argc, char* argv[]) {
     // print table summarizing results
     double timespent = time_end - time_start;
     // TODO: Only once process should do the following
-    {
+    if (rank == 0) {
         std::cout << std::string(80, '-') << std::endl;
         std::cout << "simulation took " << timespent << " seconds" << std::endl;
         std::cout << int(iters_cg)
@@ -277,6 +313,8 @@ int main(int argc, char* argv[]) {
     }
 
     // TODO: finalize MPI
+    MPI_Comm_free(&domain.comm_cart);
+    MPI_Finalize();
 
     return 0;
 }

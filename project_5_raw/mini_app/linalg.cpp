@@ -6,10 +6,11 @@
 #include <cmath>
 #include <cstdio>
 
+#include "data.h"
 #include "linalg.h"
+#include "mpi.h"
 #include "operators.h"
 #include "stats.h"
-#include "data.h"
 
 namespace linalg {
 
@@ -44,7 +45,7 @@ void cg_init(int nx, int ny) {
 ////////////////////////////////////////////////////////////////////////////////
 
 // computes the inner product of x and y
-// x and y are vectors on length N
+// x and y are vectors of length N
 double hpc_dot(Field const& x, Field const& y) {
     double result = 0;
     int N = y.length();
@@ -52,6 +53,8 @@ double hpc_dot(Field const& x, Field const& y) {
     for (int i = 0; i < N; i++) {
         result += x[i] * y[i];
     }
+
+    MPI_Allreduce(MPI_IN_PLACE, &result, 1, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
 
     return result;
 }
@@ -62,9 +65,7 @@ double hpc_norm2(Field const& x) {
     double result = 0;
     int N = x.length();
     // compute local result
-    for (int i = 0; i < N; i++) {
-        result += x[i] * x[i];
-    }
+    result = hpc_dot(x, x);
 
     return sqrt(result);
 }
@@ -107,9 +108,8 @@ void hpc_add_scaled_diff(Field& y, Field const& x, const double alpha,
 // computes y = alpha*(l-r)
 // y, l and r are vectors of length N
 // alpha is a scalar
-void hpc_scaled_diff(Field& y, const double alpha,
-    Field const& l, Field const& r)
-{
+void hpc_scaled_diff(Field& y, const double alpha, Field const& l,
+                     Field const& r) {
     int N = y.length();
 
     for (int i = 0; i < N; i++)
@@ -155,20 +155,22 @@ void hpc_copy(Field& y, Field const& x) {
 void hpc_cg(Field& deltay, Field const& y_old, Field const& y_new,
             Field const& f, const int maxiters, const double tol,
             bool& success) {
+
     // this is the dimension of the linear system that we are to solve
     int nx = data::domain.nx;
     int ny = data::domain.ny;
 
-    if (!cg_initialized) cg_init(nx, ny);
+    if (!cg_initialized)
+        cg_init(nx, ny);
 
     // epslion value use for matrix-vector approximation
-    double eps     = 1.e-4;
+    double eps = 1.e-4;
     double eps_inv = 1. / eps;
 
     // initialize to zero
     hpc_fill(fv, 0.0);
 
-    // tha Jacobian times deltay matrix vector multiplication is approximated
+    // the Jacobian times deltay matrix vector multiplication is approximated
     // with J*deltay = 1/epsilon * ( f(y_new+epsilon*deltay) - f(y_new) )
 
     // v = y_new + epsilon*deltay
@@ -195,8 +197,9 @@ void hpc_cg(Field& deltay, Field const& y_old, Field const& y_new,
     }
 
     int iter;
-    for (iter=0; iter<maxiters; iter++) {
+    for (iter = 0; iter < maxiters; iter++) {
         // Ap = A*p
+
         hpc_lcomb(v, 1.0, y_new, eps, p);
         diffusion(y_old, v, fv);
         hpc_scaled_diff(Ap, eps_inv, fv, f);
@@ -212,7 +215,8 @@ void hpc_cg(Field& deltay, Field const& y_old, Field const& y_new,
 
         // find new norm
         r_new_inner = hpc_dot(r, r);
-
+        // std::cout << "rank " << data::domain.rank << " : " << iter << " : "
+        //           << sqrt(r_new_inner) << std::endl;
         // test for convergence
         if (sqrt(r_new_inner) < tol) {
             success = true;
@@ -221,13 +225,12 @@ void hpc_cg(Field& deltay, Field const& y_old, Field const& y_new,
 
         // p = r + r_new_inner.r_old_inner * p
         hpc_lcomb(p, 1.0, r, r_new_inner / r_old_inner, p);
-
         r_old_inner = r_new_inner;
     }
     stats::iters_cg += iter + 1;
 
-    if (!success) std::cerr << "ERROR: CG failed to converge" << std::endl;
-
+    if (!success)
+        std::cerr << "ERROR: CG failed to converge" << std::endl;
 }
 
 } // namespace linalg
