@@ -4,19 +4,19 @@ import subprocess
 from typing import List
 
 
-def run(n_threads: int, n_x: int, n_t: int) -> float:
+def run(n_threads: int, n_x: int, n_t: int, type: str) -> float:
     # we call subprocess with the desired variables
-    output = subprocess.check_output(
-        ["build/main", f"{n_x}", f"{n_t}", "0.005"],
-        env={"OMP_NUM_THREADS": str(n_threads)}
-    ).decode("utf-8")
+    if type == "open_mpi":
+        output = subprocess.check_output(
+            ["mpirun", "-np", f"{n_threads}", "./build/main", f"{n_x}", f"{n_t}", "0.005"]
+        ).decode("utf-8")
 
-    
-    # extract the time
+    # extract from second last row the time
     time = float(output.split()[-3])
     threads = int((output.split()[-8]).rstrip(","))
-    print(f"threads = {threads}; time = {time}")
+    print(f"type = {type}; np = {threads}; time = {time}")
     return time
+
 
 
 def main():
@@ -32,7 +32,7 @@ def main():
     for itr in range(iterations_warm_up):
         run(threads[0], N[0], n_t)
     for itr in range(iterations):
-        time_seq += run(threads[0], N[0], n_t) / iterations
+        time_seq += run(threads[0], N[0], n_t)
 
     efficiency  = [1.0]
     for i in range(1, len(threads)):
