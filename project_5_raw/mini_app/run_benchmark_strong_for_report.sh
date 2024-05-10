@@ -11,9 +11,8 @@
 # Load some modules & list loaded modules
 module load gcc
 module load python
+module load openmpi
 
-make clean
-make
 
 python benchmark_strong.py
 

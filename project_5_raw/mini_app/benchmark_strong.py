@@ -8,8 +8,7 @@ def run(n_threads: int, n_x: int, n_t: int, type: str) -> float:
     # we call subprocess with the desired variables
     if type == "open_mpi":
         output = subprocess.check_output(
-            ["mpirun", "-np", f"{n_threads}", "build/main", f"{n_x}", f"{n_t}", "0.005"],
-            env={"OMP_NUM_THREADS": str(n_threads)}
+            ["mpirun", "-np", f"{n_threads}", "build/main", f"{n_x}", f"{n_t}", "0.005"]
         ).decode("utf-8")
 
     elif type == "open_mp":
@@ -19,7 +18,7 @@ def run(n_threads: int, n_x: int, n_t: int, type: str) -> float:
         ).decode("utf-8")
 
     time = float(output.split()[-2])
-    threads = int((output.split()[-6]).rstrip(","))
+    threads = int((output.split()[-7]).rstrip(","))
     print(f"type = {type}; np = {threads}; time = {time}")
     return time
 
@@ -49,9 +48,9 @@ def main():
             for n_threads in threads[1:]:
                 times_par = []
                 for itr in range(iterations_warm_up):
-                    run(n_threads, n_x, n_t)
+                    run(n_threads, n_x, n_t, type="open_mpi")
                 for itr in range(iterations):
-                    times_par.append(run(n_threads, n_x, n_t))
+                    times_par.append(run(n_threads, n_x, n_t, type="open_mpi"))
 
                 mean = time_seq * iterations / sum(times_par)
                 speedups.append(mean)
@@ -69,9 +68,9 @@ def main():
             for n_x in N:
                 time_seq = 0
                 for itr in range(iterations_warm_up):
-                    run(threads[0], n_x, n_t)
+                    run(threads[0], n_x, n_t, type="open_mp")
                 for itr in range(iterations):
-                    time_seq += run(threads[0], n_x, n_t) / iterations
+                    time_seq += run(threads[0], n_x, n_t, type="open_mp") / iterations
                 
                 speedups = [1.0]
                 upper_bound = [0.0]
