@@ -28,8 +28,8 @@ def main():
     colors = ["blue", "orange", "green", "red", "purple", "brown", "pink", "gray", "olive", "cyan"]
     color_count = 0
 
-    iterations = 2
-    iterations_warm_up = 1
+    iterations = 7
+    iterations_warm_up = 2
 
     for i,N in enumerate(Ns):
         plt.clf()

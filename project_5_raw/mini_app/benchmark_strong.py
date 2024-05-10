@@ -6,15 +6,15 @@ from typing import List
 
 def run(n_threads: int, n_x: int, n_t: int) -> float:
     # we call subprocess with the desired variables
-    if type == "open_mpi":
-        output = subprocess.check_output(
-            ["mpirun", "-np", f"{n_threads}", "./build/main", f"{n_x}", f"{n_t}", "0.005"]
-        ).decode("utf-8")
+    
+    output = subprocess.check_output(
+        ["mpirun", "-np", f"{n_threads}", "./build/main", f"{n_x}", f"{n_t}", "0.005"]
+    ).decode("utf-8")
 
     # extract from second last row the time
     time = float(output.split()[-3])
     threads = int((output.split()[-8]).rstrip(","))
-    print(f"type = {type}; np = {threads}; time = {time}")
+    print(f"np = {threads}; time = {time}")
     return time
 
 
@@ -27,8 +27,8 @@ def main():
     colors = ["blue", "orange", "green", "red", "purple", "brown", "pink", "gray", "olive", "cyan"]
     color_count = 0
 
-    iterations = 2
-    iterations_warm_up = 1
+    iterations = 7
+    iterations_warm_up = 2
 
     for i,N in enumerate(Ns):
         plt.clf()
