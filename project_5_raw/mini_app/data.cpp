@@ -53,36 +53,21 @@ void SubDomain::init(int mpi_rank, int mpi_size,
     // get bounding box
     nx = discretization.nx / ndomx;
     ny = discretization.nx / ndomy;
-    // int split_idx_x = discretization.nx % ndomx;
-    // int split_idx_y = discretization.nx % ndomy;
-    // // New divisibility handling
-    // if (domx < split_idx_x) {
-    //     nx++;
-    //     startx = domx * nx;
-    // } else {
-    //     startx = split_idx_x * (nx + 1) + (domx - split_idx_x) * nx;
-    // }
-    // if (domy < split_idx_y) {
-    //     ny++;
-    //     starty = domy * ny;
-    // } else {
-    //     starty = split_idx_y * (ny + 1) + (domy - split_idx_y) * ny;
-    // }
-    startx = (domx)*nx+1;
-    starty = (domy)*ny+1;
+    int rank_split_x = discretization.nx % ndomx;
+    int rank_split_y = discretization.nx % ndomy;
+    // New divisibility handling
+    if (domx < rank_split_x)
+        startx = domx * ++nx + 1;
+    else
+        startx = rank_split_x * (nx + 1) + (domx - rank_split_x) * nx + 1;
+
+    if (domy < rank_split_y)
+        starty = domy * ++ny + 1;
+    else 
+        starty = rank_split_y * (ny + 1) + (domy - rank_split_y) * ny + 1;
 
     endx = startx + nx - 1;
     endy = starty + ny - 1;
-
-    // Old divisibility handling
-    // if (domx == ndomx) {
-    //     endx = discretization.nx;
-    //     nx = endx - startx + 1;
-    // }
-    // if (domy == ndomy) {
-    //     endy = discretization.nx;
-    //     ny = endy - starty + 1;
-    // }
 
     // get total number of grid points in this sub-domain
     N = nx * ny;
@@ -98,8 +83,10 @@ void SubDomain::print() {
                       << ", " << domy << ")"
                       << " neigh N:S " << neighbour_north << ":"
                       << neighbour_south << " neigh E:W " << neighbour_east
-                      << ":" << neighbour_west << " local dims " << nx << " x "
-                      << ny << std::endl;
+                      << ":" << neighbour_west << " local dims " << nx << " x " << ny << " | "
+                      << "startx: " << startx << ", endx: " << endx << " | "
+                      << "starty: " << starty << ", endy: " << endy
+                      << std::endl;
         }
         MPI_Barrier(MPI_COMM_WORLD);
     }
