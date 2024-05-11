@@ -31,6 +31,9 @@ def main():
     iterations_warm_up = 2
 
     for i,N in enumerate(Ns):
+        if i == 0:
+            continue
+
         plt.clf()
         for n_x in N:
             time_seq_runs = []
@@ -76,6 +79,7 @@ def main():
         if i == 0:
             plt.savefig("mini_app_openMPI_benchmark_strong_64-256.png")
         elif i == 1:
+            plt.ylim(-5, 20)
             plt.savefig("mini_app_openMPI_benchmark_strong_512-1024.png")
     
 
