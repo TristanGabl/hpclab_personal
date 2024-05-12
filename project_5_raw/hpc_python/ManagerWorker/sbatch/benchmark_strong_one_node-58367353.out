@@ -1,0 +1,5 @@
+Running 50 tasks on 1 cores, 10 times to get average
+MPI initialized with     1 processes
+only one thread available, no need for manager...
+Done!
+Run took 6.276472 seconds, with     1 processes
