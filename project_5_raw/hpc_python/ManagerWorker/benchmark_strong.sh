@@ -18,7 +18,7 @@ rm benchmark_strong_100.txt
 runs=10
 warm_ups=1
 for ntask in 50 100; do
-    for ncores in {1..3}; do
+    for ncores in {1..33}; do
         echo "Running $ntask tasks on $ncores cores, $runs times to get average"
         for j in $(seq 1 $warm_ups); do
             # extract time from output
