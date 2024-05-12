@@ -17,4 +17,4 @@ for i in range(size):
       sum += rank_receive
       rank_send = rank_receive
 
-print(f"[rank {rank}]: fina sum = {sum}")
+print(f"[rank {rank}]: final sum = {sum}")
