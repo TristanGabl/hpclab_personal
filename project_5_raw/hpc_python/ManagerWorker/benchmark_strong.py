@@ -7,9 +7,9 @@ from typing import List
 def run(n_threads: int, n_x: int, n_y: int, ntasks: int) -> float:
     # we call subprocess with the desired variables
     
-    output = subprocess.check_output(
-        ["mpirun", "-np", f"{n_threads}", "python manager_worker.py", f"{n_x}", f"{n_y}", f"{ntasks}"],
-    ).decode("utf-8")
+
+    # call main from manager_worker.py
+    output = subprocess.check_output(["python", "manager_worker.py", str(n_x), str(n_y), str(ntasks), str(n_threads)], universal_newlines=True)
 
     # extract from second last row the time
     time = float(output.split()[-5])
