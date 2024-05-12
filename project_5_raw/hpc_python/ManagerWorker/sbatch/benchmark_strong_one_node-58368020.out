@@ -1,0 +1,3403 @@
+Running 50 tasks on 1 cores, 10 times to get average
+MPI initialized with     1 processes
+only one thread available, no need for manager...
+Done!
+Run took 6.236084 seconds, with     1 processes
+Running 50 tasks on 2 cores, 10 times to get average
+MPI initialized with     2 processes
+Manager starts managing... nworkers=1, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Done!
+Process     1 has done         50 tasks
+Run took 6.196106 seconds, with     2 processes
+Running 50 tasks on 3 cores, 10 times to get average
+MPI initialized with     3 processes
+Manager starts managing... nworkers=2, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Done!
+Process     1 has done         25 tasks
+Process     2 has done         25 tasks
+Run took 4.140016 seconds, with     3 processes
+Running 50 tasks on 4 cores, 10 times to get average
+MPI initialized with     4 processes
+Manager starts managing... nworkers=3, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Done!
+Process     1 has done         17 tasks
+Process     2 has done         17 tasks
+Process     3 has done         16 tasks
+Run took 3.578334 seconds, with     4 processes
+Running 50 tasks on 5 cores, 10 times to get average
+MPI initialized with     5 processes
+Manager starts managing... nworkers=4, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Done!
+Process     1 has done         11 tasks
+Process     2 has done         14 tasks
+Process     3 has done         14 tasks
+Process     4 has done         11 tasks
+Run took 2.954206 seconds, with     5 processes
+Running 50 tasks on 6 cores, 10 times to get average
+MPI initialized with     6 processes
+Manager starts managing... nworkers=5, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Done!
+Process     1 has done          9 tasks
+Process     2 has done         11 tasks
+Process     3 has done          9 tasks
+Process     4 has done          9 tasks
+Process     5 has done         12 tasks
+Run took 2.643670 seconds, with     6 processes
+Running 50 tasks on 7 cores, 10 times to get average
+MPI initialized with     7 processes
+Manager starts managing... nworkers=6, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Done!
+Process     1 has done          9 tasks
+Process     2 has done          9 tasks
+Process     3 has done          9 tasks
+Process     4 has done          7 tasks
+Process     5 has done          8 tasks
+Process     6 has done          8 tasks
+Run took 2.384175 seconds, with     7 processes
+Running 50 tasks on 8 cores, 10 times to get average
+MPI initialized with     8 processes
+Manager starts managing... nworkers=7, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Done!
+Process     1 has done          7 tasks
+Process     2 has done          7 tasks
+Process     3 has done          6 tasks
+Process     4 has done          7 tasks
+Process     5 has done          8 tasks
+Process     6 has done          7 tasks
+Process     7 has done          8 tasks
+Run took 2.290416 seconds, with     8 processes
+Running 50 tasks on 9 cores, 10 times to get average
+MPI initialized with     9 processes
+Manager starts managing... nworkers=8, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Done!
+Process     1 has done          7 tasks
+Process     2 has done          7 tasks
+Process     3 has done          5 tasks
+Process     4 has done          6 tasks
+Process     5 has done          7 tasks
+Process     6 has done          6 tasks
+Process     7 has done          6 tasks
+Process     8 has done          6 tasks
+Run took 2.160176 seconds, with     9 processes
+Running 50 tasks on 10 cores, 10 times to get average
+MPI initialized with    10 processes
+Manager starts managing... nworkers=9, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Done!
+Process     1 has done          6 tasks
+Process     2 has done          6 tasks
+Process     3 has done          6 tasks
+Process     4 has done          5 tasks
+Process     5 has done          4 tasks
+Process     6 has done          5 tasks
+Process     7 has done          6 tasks
+Process     8 has done          6 tasks
+Process     9 has done          6 tasks
+Run took 2.258962 seconds, with    10 processes
+Running 50 tasks on 11 cores, 10 times to get average
+MPI initialized with    11 processes
+Manager starts managing... nworkers=10, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Done!
+Process     1 has done          4 tasks
+Process     2 has done          4 tasks
+Process     3 has done          4 tasks
+Process     4 has done          6 tasks
+Process     5 has done          6 tasks
+Process     6 has done          5 tasks
+Process     7 has done          4 tasks
+Process     8 has done          5 tasks
+Process     9 has done          6 tasks
+Process    10 has done          6 tasks
+Run took 2.043108 seconds, with    11 processes
+Running 50 tasks on 12 cores, 10 times to get average
+MPI initialized with    12 processes
+Manager starts managing... nworkers=11, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Done!
+Process     1 has done          4 tasks
+Process     2 has done          5 tasks
+Process     3 has done          5 tasks
+Process     4 has done          5 tasks
+Process     5 has done          4 tasks
+Process     6 has done          5 tasks
+Process     7 has done          5 tasks
+Process     8 has done          4 tasks
+Process     9 has done          4 tasks
+Process    10 has done          5 tasks
+Process    11 has done          4 tasks
+Run took 2.036186 seconds, with    12 processes
+Running 50 tasks on 13 cores, 10 times to get average
+MPI initialized with    13 processes
+Manager starts managing... nworkers=12, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Done!
+Process     1 has done          5 tasks
+Process     2 has done          4 tasks
+Process     3 has done          4 tasks
+Process     4 has done          4 tasks
+Process     5 has done          4 tasks
+Process     6 has done          4 tasks
+Process     7 has done          4 tasks
+Process     8 has done          5 tasks
+Process     9 has done          4 tasks
+Process    10 has done          4 tasks
+Process    11 has done          4 tasks
+Process    12 has done          4 tasks
+Run took 1.904428 seconds, with    13 processes
+Running 50 tasks on 14 cores, 10 times to get average
+MPI initialized with    14 processes
+Manager starts managing... nworkers=13, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Done!
+Process     1 has done          5 tasks
+Process     2 has done          3 tasks
+Process     3 has done          4 tasks
+Process     4 has done          3 tasks
+Process     5 has done          5 tasks
+Process     6 has done          4 tasks
+Process     7 has done          3 tasks
+Process     8 has done          5 tasks
+Process     9 has done          3 tasks
+Process    10 has done          4 tasks
+Process    11 has done          4 tasks
+Process    12 has done          4 tasks
+Process    13 has done          3 tasks
+Run took 2.174748 seconds, with    14 processes
+Running 50 tasks on 15 cores, 10 times to get average
+MPI initialized with    15 processes
+Manager starts managing... nworkers=14, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Done!
+Process     1 has done          4 tasks
+Process     2 has done          3 tasks
+Process     3 has done          4 tasks
+Process     4 has done          4 tasks
+Process     5 has done          4 tasks
+Process     6 has done          3 tasks
+Process     7 has done          4 tasks
+Process     8 has done          3 tasks
+Process     9 has done          4 tasks
+Process    10 has done          5 tasks
+Process    11 has done          3 tasks
+Process    12 has done          3 tasks
+Process    13 has done          3 tasks
+Process    14 has done          3 tasks
+Run took 1.975143 seconds, with    15 processes
+Running 50 tasks on 16 cores, 10 times to get average
+MPI initialized with    16 processes
+Manager starts managing... nworkers=15, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Done!
+Process     1 has done          3 tasks
+Process     2 has done          3 tasks
+Process     3 has done          4 tasks
+Process     4 has done          3 tasks
+Process     5 has done          4 tasks
+Process     6 has done          4 tasks
+Process     7 has done          3 tasks
+Process     8 has done          4 tasks
+Process     9 has done          4 tasks
+Process    10 has done          3 tasks
+Process    11 has done          3 tasks
+Process    12 has done          3 tasks
+Process    13 has done          3 tasks
+Process    14 has done          3 tasks
+Process    15 has done          3 tasks
+Run took 1.606578 seconds, with    16 processes
+Running 50 tasks on 17 cores, 10 times to get average
+MPI initialized with    17 processes
+Manager starts managing... nworkers=16, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Done!
+Process     1 has done          3 tasks
+Process     2 has done          3 tasks
+Process     3 has done          3 tasks
+Process     4 has done          3 tasks
+Process     5 has done          4 tasks
+Process     6 has done          4 tasks
+Process     7 has done          3 tasks
+Process     8 has done          3 tasks
+Process     9 has done          3 tasks
+Process    10 has done          4 tasks
+Process    11 has done          3 tasks
+Process    12 has done          3 tasks
+Process    13 has done          4 tasks
+Process    14 has done          2 tasks
+Process    15 has done          3 tasks
+Process    16 has done          2 tasks
+Run took 1.652449 seconds, with    17 processes
+Running 50 tasks on 18 cores, 10 times to get average
+MPI initialized with    18 processes
+Manager starts managing... nworkers=17, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Done!
+Process     1 has done          3 tasks
+Process     2 has done          3 tasks
+Process     3 has done          4 tasks
+Process     4 has done          3 tasks
+Process     5 has done          3 tasks
+Process     6 has done          4 tasks
+Process     7 has done          3 tasks
+Process     8 has done          3 tasks
+Process     9 has done          3 tasks
+Process    10 has done          3 tasks
+Process    11 has done          2 tasks
+Process    12 has done          3 tasks
+Process    13 has done          3 tasks
+Process    14 has done          2 tasks
+Process    15 has done          3 tasks
+Process    16 has done          2 tasks
+Process    17 has done          3 tasks
+Run took 1.651644 seconds, with    18 processes
+Running 50 tasks on 19 cores, 10 times to get average
+MPI initialized with    19 processes
+Manager starts managing... nworkers=18, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Done!
+Process     1 has done          3 tasks
+Process     2 has done          2 tasks
+Process     3 has done          3 tasks
+Process     4 has done          3 tasks
+Process     5 has done          3 tasks
+Process     6 has done          3 tasks
+Process     7 has done          2 tasks
+Process     8 has done          3 tasks
+Process     9 has done          3 tasks
+Process    10 has done          3 tasks
+Process    11 has done          3 tasks
+Process    12 has done          3 tasks
+Process    13 has done          3 tasks
+Process    14 has done          3 tasks
+Process    15 has done          4 tasks
+Process    16 has done          2 tasks
+Process    17 has done          2 tasks
+Process    18 has done          2 tasks
+Run took 1.556557 seconds, with    19 processes
+Running 50 tasks on 20 cores, 10 times to get average
+MPI initialized with    20 processes
+Manager starts managing... nworkers=19, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Done!
+Process     1 has done          3 tasks
+Process     2 has done          3 tasks
+Process     3 has done          3 tasks
+Process     4 has done          3 tasks
+Process     5 has done          3 tasks
+Process     6 has done          3 tasks
+Process     7 has done          2 tasks
+Process     8 has done          3 tasks
+Process     9 has done          2 tasks
+Process    10 has done          3 tasks
+Process    11 has done          2 tasks
+Process    12 has done          3 tasks
+Process    13 has done          3 tasks
+Process    14 has done          2 tasks
+Process    15 has done          3 tasks
+Process    16 has done          2 tasks
+Process    17 has done          3 tasks
+Process    18 has done          2 tasks
+Process    19 has done          2 tasks
+Run took 1.571492 seconds, with    20 processes
+Running 50 tasks on 21 cores, 10 times to get average
+MPI initialized with    21 processes
+Manager starts managing... nworkers=20, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Done!
+Process     1 has done          3 tasks
+Process     2 has done          2 tasks
+Process     3 has done          3 tasks
+Process     4 has done          2 tasks
+Process     5 has done          3 tasks
+Process     6 has done          3 tasks
+Process     7 has done          2 tasks
+Process     8 has done          3 tasks
+Process     9 has done          3 tasks
+Process    10 has done          3 tasks
+Process    11 has done          2 tasks
+Process    12 has done          2 tasks
+Process    13 has done          3 tasks
+Process    14 has done          2 tasks
+Process    15 has done          3 tasks
+Process    16 has done          2 tasks
+Process    17 has done          2 tasks
+Process    18 has done          2 tasks
+Process    19 has done          2 tasks
+Process    20 has done          3 tasks
+Run took 1.486796 seconds, with    21 processes
+Running 50 tasks on 22 cores, 10 times to get average
+MPI initialized with    22 processes
+Manager starts managing... nworkers=21, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Done!
+Process     1 has done          3 tasks
+Process     2 has done          2 tasks
+Process     3 has done          2 tasks
+Process     4 has done          2 tasks
+Process     5 has done          3 tasks
+Process     6 has done          2 tasks
+Process     7 has done          2 tasks
+Process     8 has done          3 tasks
+Process     9 has done          2 tasks
+Process    10 has done          2 tasks
+Process    11 has done          2 tasks
+Process    12 has done          2 tasks
+Process    13 has done          3 tasks
+Process    14 has done          2 tasks
+Process    15 has done          3 tasks
+Process    16 has done          2 tasks
+Process    17 has done          3 tasks
+Process    18 has done          3 tasks
+Process    19 has done          2 tasks
+Process    20 has done          2 tasks
+Process    21 has done          3 tasks
+Run took 1.627459 seconds, with    22 processes
+Running 50 tasks on 23 cores, 10 times to get average
+MPI initialized with    23 processes
+Manager starts managing... nworkers=22, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=22
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=22
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Done!
+Process     1 has done          2 tasks
+Process     2 has done          2 tasks
+Process     3 has done          2 tasks
+Process     4 has done          3 tasks
+Process     5 has done          3 tasks
+Process     6 has done          3 tasks
+Process     7 has done          3 tasks
+Process     8 has done          2 tasks
+Process     9 has done          3 tasks
+Process    10 has done          3 tasks
+Process    11 has done          2 tasks
+Process    12 has done          2 tasks
+Process    13 has done          2 tasks
+Process    14 has done          2 tasks
+Process    15 has done          2 tasks
+Process    16 has done          2 tasks
+Process    17 has done          2 tasks
+Process    18 has done          2 tasks
+Process    19 has done          2 tasks
+Process    20 has done          2 tasks
+Process    21 has done          2 tasks
+Process    22 has done          2 tasks
+Run took 1.510891 seconds, with    23 processes
+Running 50 tasks on 24 cores, 10 times to get average
+MPI initialized with    24 processes
+Manager starts managing... nworkers=23, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=22
+Manager received message with tag=TAG_TASK_DONE from rank=23
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=23
+Manager received message with tag=TAG_TASK_DONE from rank=22
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Done!
+Process     1 has done          3 tasks
+Process     2 has done          2 tasks
+Process     3 has done          2 tasks
+Process     4 has done          2 tasks
+Process     5 has done          3 tasks
+Process     6 has done          2 tasks
+Process     7 has done          2 tasks
+Process     8 has done          2 tasks
+Process     9 has done          3 tasks
+Process    10 has done          2 tasks
+Process    11 has done          2 tasks
+Process    12 has done          2 tasks
+Process    13 has done          2 tasks
+Process    14 has done          2 tasks
+Process    15 has done          2 tasks
+Process    16 has done          2 tasks
+Process    17 has done          2 tasks
+Process    18 has done          3 tasks
+Process    19 has done          2 tasks
+Process    20 has done          2 tasks
+Process    21 has done          2 tasks
+Process    22 has done          2 tasks
+Process    23 has done          2 tasks
+Run took 1.467128 seconds, with    24 processes
+Running 50 tasks on 25 cores, 10 times to get average
+MPI initialized with    25 processes
+Manager starts managing... nworkers=24, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=24
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=23
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=22
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=24
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=23
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=22
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Done!
+Process     1 has done          2 tasks
+Process     2 has done          2 tasks
+Process     3 has done          3 tasks
+Process     4 has done          2 tasks
+Process     5 has done          2 tasks
+Process     6 has done          3 tasks
+Process     7 has done          2 tasks
+Process     8 has done          2 tasks
+Process     9 has done          2 tasks
+Process    10 has done          2 tasks
+Process    11 has done          2 tasks
+Process    12 has done          2 tasks
+Process    13 has done          2 tasks
+Process    14 has done          2 tasks
+Process    15 has done          2 tasks
+Process    16 has done          2 tasks
+Process    17 has done          2 tasks
+Process    18 has done          2 tasks
+Process    19 has done          2 tasks
+Process    20 has done          2 tasks
+Process    21 has done          2 tasks
+Process    22 has done          2 tasks
+Process    23 has done          2 tasks
+Process    24 has done          2 tasks
+Run took 1.372382 seconds, with    25 processes
+Running 50 tasks on 26 cores, 10 times to get average
+MPI initialized with    26 processes
+Manager starts managing... nworkers=25, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=22
+Manager received message with tag=TAG_TASK_DONE from rank=24
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=23
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=23
+Manager received message with tag=TAG_TASK_DONE from rank=25
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=24
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=22
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Done!
+Process     1 has done          2 tasks
+Process     2 has done          2 tasks
+Process     3 has done          2 tasks
+Process     4 has done          2 tasks
+Process     5 has done          3 tasks
+Process     6 has done          2 tasks
+Process     7 has done          2 tasks
+Process     8 has done          2 tasks
+Process     9 has done          2 tasks
+Process    10 has done          2 tasks
+Process    11 has done          2 tasks
+Process    12 has done          2 tasks
+Process    13 has done          2 tasks
+Process    14 has done          2 tasks
+Process    15 has done          2 tasks
+Process    16 has done          2 tasks
+Process    17 has done          2 tasks
+Process    18 has done          2 tasks
+Process    19 has done          2 tasks
+Process    20 has done          2 tasks
+Process    21 has done          2 tasks
+Process    22 has done          2 tasks
+Process    23 has done          2 tasks
+Process    24 has done          2 tasks
+Process    25 has done          1 tasks
+Run took 1.372972 seconds, with    26 processes
+Running 50 tasks on 27 cores, 10 times to get average
+MPI initialized with    27 processes
+Manager starts managing... nworkers=26, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=24
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=22
+Manager received message with tag=TAG_TASK_DONE from rank=26
+Manager received message with tag=TAG_TASK_DONE from rank=23
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=25
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=24
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=22
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=26
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Done!
+Process     1 has done          2 tasks
+Process     2 has done          2 tasks
+Process     3 has done          2 tasks
+Process     4 has done          2 tasks
+Process     5 has done          2 tasks
+Process     6 has done          2 tasks
+Process     7 has done          2 tasks
+Process     8 has done          2 tasks
+Process     9 has done          2 tasks
+Process    10 has done          2 tasks
+Process    11 has done          2 tasks
+Process    12 has done          2 tasks
+Process    13 has done          2 tasks
+Process    14 has done          2 tasks
+Process    15 has done          2 tasks
+Process    16 has done          2 tasks
+Process    17 has done          2 tasks
+Process    18 has done          2 tasks
+Process    19 has done          2 tasks
+Process    20 has done          2 tasks
+Process    21 has done          2 tasks
+Process    22 has done          2 tasks
+Process    23 has done          1 tasks
+Process    24 has done          2 tasks
+Process    25 has done          1 tasks
+Process    26 has done          2 tasks
+Run took 1.565372 seconds, with    27 processes
+Running 50 tasks on 28 cores, 10 times to get average
+MPI initialized with    28 processes
+Manager starts managing... nworkers=27, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=24
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=23
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=24
+Manager received message with tag=TAG_TASK_DONE from rank=22
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=26
+Manager received message with tag=TAG_TASK_DONE from rank=27
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=25
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=23
+Done!
+Process     1 has done          3 tasks
+Process     2 has done          2 tasks
+Process     3 has done          2 tasks
+Process     4 has done          2 tasks
+Process     5 has done          3 tasks
+Process     6 has done          2 tasks
+Process     7 has done          2 tasks
+Process     8 has done          2 tasks
+Process     9 has done          2 tasks
+Process    10 has done          2 tasks
+Process    11 has done          2 tasks
+Process    12 has done          2 tasks
+Process    13 has done          2 tasks
+Process    14 has done          2 tasks
+Process    15 has done          2 tasks
+Process    16 has done          2 tasks
+Process    17 has done          1 tasks
+Process    18 has done          1 tasks
+Process    19 has done          2 tasks
+Process    20 has done          2 tasks
+Process    21 has done          2 tasks
+Process    22 has done          1 tasks
+Process    23 has done          2 tasks
+Process    24 has done          2 tasks
+Process    25 has done          1 tasks
+Process    26 has done          1 tasks
+Process    27 has done          1 tasks
+Run took 1.453161 seconds, with    28 processes
+Running 50 tasks on 29 cores, 10 times to get average
+MPI initialized with    29 processes
+Manager starts managing... nworkers=28, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=24
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=24
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=22
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=23
+Manager received message with tag=TAG_TASK_DONE from rank=25
+Manager received message with tag=TAG_TASK_DONE from rank=27
+Manager received message with tag=TAG_TASK_DONE from rank=28
+Manager received message with tag=TAG_TASK_DONE from rank=26
+Done!
+Process     1 has done          2 tasks
+Process     2 has done          2 tasks
+Process     3 has done          2 tasks
+Process     4 has done          2 tasks
+Process     5 has done          3 tasks
+Process     6 has done          2 tasks
+Process     7 has done          2 tasks
+Process     8 has done          2 tasks
+Process     9 has done          2 tasks
+Process    10 has done          2 tasks
+Process    11 has done          2 tasks
+Process    12 has done          2 tasks
+Process    13 has done          2 tasks
+Process    14 has done          2 tasks
+Process    15 has done          2 tasks
+Process    16 has done          2 tasks
+Process    17 has done          1 tasks
+Process    18 has done          2 tasks
+Process    19 has done          2 tasks
+Process    20 has done          2 tasks
+Process    21 has done          2 tasks
+Process    22 has done          1 tasks
+Process    23 has done          1 tasks
+Process    24 has done          2 tasks
+Process    25 has done          1 tasks
+Process    26 has done          1 tasks
+Process    27 has done          1 tasks
+Process    28 has done          1 tasks
+Run took 1.451008 seconds, with    29 processes
+Running 50 tasks on 30 cores, 10 times to get average
+MPI initialized with    30 processes
+Manager starts managing... nworkers=29, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=24
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=29
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=24
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=23
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=22
+Manager received message with tag=TAG_TASK_DONE from rank=26
+Manager received message with tag=TAG_TASK_DONE from rank=25
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=29
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=27
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=28
+Done!
+Process     1 has done          2 tasks
+Process     2 has done          2 tasks
+Process     3 has done          2 tasks
+Process     4 has done          2 tasks
+Process     5 has done          3 tasks
+Process     6 has done          2 tasks
+Process     7 has done          2 tasks
+Process     8 has done          2 tasks
+Process     9 has done          2 tasks
+Process    10 has done          2 tasks
+Process    11 has done          2 tasks
+Process    12 has done          2 tasks
+Process    13 has done          2 tasks
+Process    14 has done          2 tasks
+Process    15 has done          2 tasks
+Process    16 has done          2 tasks
+Process    17 has done          1 tasks
+Process    18 has done          1 tasks
+Process    19 has done          2 tasks
+Process    20 has done          2 tasks
+Process    21 has done          1 tasks
+Process    22 has done          1 tasks
+Process    23 has done          1 tasks
+Process    24 has done          2 tasks
+Process    25 has done          1 tasks
+Process    26 has done          1 tasks
+Process    27 has done          1 tasks
+Process    28 has done          1 tasks
+Process    29 has done          2 tasks
+Run took 1.452765 seconds, with    30 processes
+Running 50 tasks on 31 cores, 10 times to get average
+MPI initialized with    31 processes
+Manager starts managing... nworkers=30, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=24
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=29
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=24
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=28
+Manager received message with tag=TAG_TASK_DONE from rank=29
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=25
+Manager received message with tag=TAG_TASK_DONE from rank=22
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=30
+Manager received message with tag=TAG_TASK_DONE from rank=23
+Manager received message with tag=TAG_TASK_DONE from rank=26
+Manager received message with tag=TAG_TASK_DONE from rank=27
+Done!
+Process     1 has done          2 tasks
+Process     2 has done          2 tasks
+Process     3 has done          2 tasks
+Process     4 has done          2 tasks
+Process     5 has done          3 tasks
+Process     6 has done          2 tasks
+Process     7 has done          2 tasks
+Process     8 has done          2 tasks
+Process     9 has done          2 tasks
+Process    10 has done          2 tasks
+Process    11 has done          2 tasks
+Process    12 has done          2 tasks
+Process    13 has done          1 tasks
+Process    14 has done          3 tasks
+Process    15 has done          2 tasks
+Process    16 has done          2 tasks
+Process    17 has done          1 tasks
+Process    18 has done          1 tasks
+Process    19 has done          2 tasks
+Process    20 has done          1 tasks
+Process    21 has done          1 tasks
+Process    22 has done          1 tasks
+Process    23 has done          1 tasks
+Process    24 has done          2 tasks
+Process    25 has done          1 tasks
+Process    26 has done          1 tasks
+Process    27 has done          1 tasks
+Process    28 has done          1 tasks
+Process    29 has done          2 tasks
+Process    30 has done          1 tasks
+Run took 1.556594 seconds, with    31 processes
+Running 50 tasks on 32 cores, 10 times to get average
+MPI initialized with    32 processes
+Manager starts managing... nworkers=31, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=24
+Manager received message with tag=TAG_TASK_DONE from rank=29
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=24
+Manager received message with tag=TAG_TASK_DONE from rank=29
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=22
+Manager received message with tag=TAG_TASK_DONE from rank=23
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=25
+Manager received message with tag=TAG_TASK_DONE from rank=30
+Manager received message with tag=TAG_TASK_DONE from rank=27
+Manager received message with tag=TAG_TASK_DONE from rank=26
+Manager received message with tag=TAG_TASK_DONE from rank=28
+Manager received message with tag=TAG_TASK_DONE from rank=31
+Done!
+Process     1 has done          2 tasks
+Process     2 has done          2 tasks
+Process     3 has done          2 tasks
+Process     4 has done          2 tasks
+Process     5 has done          2 tasks
+Process     6 has done          2 tasks
+Process     7 has done          2 tasks
+Process     8 has done          2 tasks
+Process     9 has done          2 tasks
+Process    10 has done          2 tasks
+Process    11 has done          2 tasks
+Process    12 has done          2 tasks
+Process    13 has done          1 tasks
+Process    14 has done          2 tasks
+Process    15 has done          3 tasks
+Process    16 has done          2 tasks
+Process    17 has done          1 tasks
+Process    18 has done          1 tasks
+Process    19 has done          2 tasks
+Process    20 has done          1 tasks
+Process    21 has done          1 tasks
+Process    22 has done          1 tasks
+Process    23 has done          1 tasks
+Process    24 has done          2 tasks
+Process    25 has done          1 tasks
+Process    26 has done          1 tasks
+Process    27 has done          1 tasks
+Process    28 has done          1 tasks
+Process    29 has done          2 tasks
+Process    30 has done          1 tasks
+Process    31 has done          1 tasks
+Run took 1.888435 seconds, with    32 processes
+Running 50 tasks on 33 cores, 10 times to get average
+MPI initialized with    33 processes
+Manager starts managing... nworkers=32, ntasks=50
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=24
+Manager received message with tag=TAG_TASK_DONE from rank=29
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=16
+Manager received message with tag=TAG_TASK_DONE from rank=15
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=19
+Manager received message with tag=TAG_TASK_DONE from rank=14
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=12
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=11
+Manager received message with tag=TAG_TASK_DONE from rank=24
+Manager received message with tag=TAG_TASK_DONE from rank=29
+Manager received message with tag=TAG_TASK_DONE from rank=17
+Manager received message with tag=TAG_TASK_DONE from rank=13
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=21
+Manager received message with tag=TAG_TASK_DONE from rank=20
+Manager received message with tag=TAG_TASK_DONE from rank=18
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=22
+Manager received message with tag=TAG_TASK_DONE from rank=23
+Manager received message with tag=TAG_TASK_DONE from rank=25
+Manager received message with tag=TAG_TASK_DONE from rank=26
+Manager received message with tag=TAG_TASK_DONE from rank=27
+Manager received message with tag=TAG_TASK_DONE from rank=28
+Manager received message with tag=TAG_TASK_DONE from rank=31
+Manager received message with tag=TAG_TASK_DONE from rank=30
+Manager received message with tag=TAG_TASK_DONE from rank=32
+Done!
+Process     1 has done          2 tasks
+Process     2 has done          2 tasks
+Process     3 has done          2 tasks
+Process     4 has done          2 tasks
+Process     5 has done          2 tasks
+Process     6 has done          2 tasks
+Process     7 has done          2 tasks
+Process     8 has done          2 tasks
+Process     9 has done          2 tasks
+Process    10 has done          2 tasks
+Process    11 has done          2 tasks
+Process    12 has done          2 tasks
+Process    13 has done          1 tasks
+Process    14 has done          2 tasks
+Process    15 has done          2 tasks
+Process    16 has done          2 tasks
+Process    17 has done          1 tasks
+Process    18 has done          1 tasks
+Process    19 has done          2 tasks
+Process    20 has done          1 tasks
+Process    21 has done          1 tasks
+Process    22 has done          1 tasks
+Process    23 has done          1 tasks
+Process    24 has done          2 tasks
+Process    25 has done          1 tasks
+Process    26 has done          1 tasks
+Process    27 has done          1 tasks
+Process    28 has done          1 tasks
+Process    29 has done          2 tasks
+Process    30 has done          1 tasks
+Process    31 has done          1 tasks
+Process    32 has done          1 tasks
+Run took 1.679940 seconds, with    33 processes
+Running 100 tasks on 1 cores, 10 times to get average
+MPI initialized with     1 processes
+only one thread available, no need for manager...
+Done!
+Run took 6.039700 seconds, with     1 processes
+Running 100 tasks on 2 cores, 10 times to get average
+MPI initialized with     2 processes
+Manager starts managing... nworkers=1, ntasks=100
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Done!
+Process     1 has done        100 tasks
+Run took 6.244798 seconds, with     2 processes
+Running 100 tasks on 3 cores, 10 times to get average
+MPI initialized with     3 processes
+Manager starts managing... nworkers=2, ntasks=100
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Done!
+Process     1 has done         49 tasks
+Process     2 has done         51 tasks
+Run took 4.671183 seconds, with     3 processes
+Running 100 tasks on 4 cores, 10 times to get average
+MPI initialized with     4 processes
+Manager starts managing... nworkers=3, ntasks=100
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Done!
+Process     1 has done         33 tasks
+Process     2 has done         34 tasks
+Process     3 has done         33 tasks
+Run took 3.146948 seconds, with     4 processes
+Running 100 tasks on 5 cores, 10 times to get average
+MPI initialized with     5 processes
+Manager starts managing... nworkers=4, ntasks=100
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Done!
+Process     1 has done         25 tasks
+Process     2 has done         26 tasks
+Process     3 has done         22 tasks
+Process     4 has done         27 tasks
+Run took 2.962852 seconds, with     5 processes
+Running 100 tasks on 6 cores, 10 times to get average
+MPI initialized with     6 processes
+Manager starts managing... nworkers=5, ntasks=100
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Done!
+Process     1 has done         20 tasks
+Process     2 has done         20 tasks
+Process     3 has done         20 tasks
+Process     4 has done         21 tasks
+Process     5 has done         19 tasks
+Run took 2.583063 seconds, with     6 processes
+Running 100 tasks on 7 cores, 10 times to get average
+MPI initialized with     7 processes
+Manager starts managing... nworkers=6, ntasks=100
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Done!
+Process     1 has done         17 tasks
+Process     2 has done         18 tasks
+Process     3 has done         16 tasks
+Process     4 has done         14 tasks
+Process     5 has done         18 tasks
+Process     6 has done         17 tasks
+Run took 2.306390 seconds, with     7 processes
+Running 100 tasks on 8 cores, 10 times to get average
+MPI initialized with     8 processes
+Manager starts managing... nworkers=7, ntasks=100
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Done!
+Process     1 has done         15 tasks
+Process     2 has done         15 tasks
+Process     3 has done         14 tasks
+Process     4 has done         11 tasks
+Process     5 has done         15 tasks
+Process     6 has done         15 tasks
+Process     7 has done         15 tasks
+Run took 2.237729 seconds, with     8 processes
+Running 100 tasks on 9 cores, 10 times to get average
+MPI initialized with     9 processes
+Manager starts managing... nworkers=8, ntasks=100
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Done!
+Process     1 has done         12 tasks
+Process     2 has done         13 tasks
+Process     3 has done         11 tasks
+Process     4 has done         14 tasks
+Process     5 has done         14 tasks
+Process     6 has done         13 tasks
+Process     7 has done         13 tasks
+Process     8 has done         10 tasks
+Run took 2.209534 seconds, with     9 processes
+Running 100 tasks on 10 cores, 10 times to get average
+MPI initialized with    10 processes
+Manager starts managing... nworkers=9, ntasks=100
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Done!
+Process     1 has done         12 tasks
+Process     2 has done         12 tasks
+Process     3 has done          9 tasks
+Process     4 has done         11 tasks
+Process     5 has done         12 tasks
+Process     6 has done         12 tasks
+Process     7 has done         12 tasks
+Process     8 has done         11 tasks
+Process     9 has done          9 tasks
+Run took 2.082172 seconds, with    10 processes
+Running 100 tasks on 11 cores, 10 times to get average
+MPI initialized with    11 processes
+Manager starts managing... nworkers=10, ntasks=100
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Manager received message with tag=TAG_TASK_DONE from rank=5
+Manager received message with tag=TAG_TASK_DONE from rank=4
+Manager received message with tag=TAG_TASK_DONE from rank=7
+Manager received message with tag=TAG_TASK_DONE from rank=2
+Manager received message with tag=TAG_TASK_DONE from rank=10
+Manager received message with tag=TAG_TASK_DONE from rank=8
+Manager received message with tag=TAG_TASK_DONE from rank=1
+Manager received message with tag=TAG_TASK_DONE from rank=3
+Manager received message with tag=TAG_TASK_DONE from rank=9
+Manager received message with tag=TAG_TASK_DONE from rank=6
+Done!
+Process     1 has done         10 tasks
+Process     2 has done         11 tasks
+Process     3 has done          8 tasks
+Process     4 has done         10 tasks
+Process     5 has done         11 tasks
+Process     6 has done          9 tasks
+Process     7 has done         11 tasks
+Process     8 has done         10 tasks
+Process     9 has done          9 tasks
+Process    10 has done         11 tasks
+Run took 1.956481 seconds, with    11 processes

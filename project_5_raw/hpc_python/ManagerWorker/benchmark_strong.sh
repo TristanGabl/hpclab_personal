@@ -4,7 +4,7 @@
 #SBATCH --error=sbatch/benchmark_strong_one_node-%j.err  # Error file  (default: slurm-%j.out)
 #SBATCH --ntasks=33                # Number of tasks
 #SBATCH --constraint=EPYC_7763    # Select node with CPU
-#SBATCH --time=01:00:00           # Wall clock time limit
+#SBATCH --time=04:00:00           # Wall clock time limit
 
 
 # enter venv
