@@ -196,4 +196,4 @@ if __name__ == "__main__":
             if i == MANAGER:
                 continue
             print(f"Process {i:5d} has done {TasksDoneByWorker[i]:10d} tasks")
-        print(f"Run took {timespent:f} seconds")
+        print(f"Run took {timespent:f} seconds, with {size:5d} processes")
