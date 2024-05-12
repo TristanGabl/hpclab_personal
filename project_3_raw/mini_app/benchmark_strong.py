@@ -77,6 +77,7 @@ def main():
         if i == 0:
             plt.savefig("mini_app_openMP_benchmark_strong_64-256.png")
         elif i == 1:
+            plt.ylim(-5, 25)
             plt.savefig("mini_app_openMP_benchmark_strong_512-1024.png")
     
 

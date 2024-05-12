@@ -24,12 +24,61 @@ def manager(comm, tasks):
     tasks : list of objects with a do_task() method perfroming the task
         List of tasks to accomplish
 
-    Returns
+    Returns 
     -------
-    ... ToDo ...
+    TasksDoneByWorker : counts the ntasks done by each rank
+        dict
+    tasks : finished tasks
+        List of finished tasks
     """
 
-    pass
+
+    nworkers = comm.Get_size() - 1 # rank 0 is occupied to be the manager
+    ntasks = len(tasks)
+    print(f"Manager starts managing... {nworkers=}, {ntasks=}")
+    task_index = 0
+    # send first round
+    for worker_rank in range(1, min(nworkers+1, ntasks+1)):
+        comm.send(tasks[task_index], dest=worker_rank, tag=TAG_TASK)
+        task_index += 1
+
+    tasks_finished = []
+    TasksDoneByWorker = {}
+    ntasks_finished = 0
+
+    while ntasks_finished < ntasks:
+        status = MPI.Status()
+        received_task = comm.recv(source=MPI.ANY_SOURCE, tag=MPI.ANY_TAG, status=status)
+        source = status.Get_source()
+        tag = status.Get_tag()
+
+        if tag == 2:
+            print(f"Manager received message with tag=TAG_TASK_DONE from rank={source}")
+        else:
+            print(f"Manager received message with {tag} from {source}")
+
+        if tag == TAG_TASK_DONE:
+            # collect
+            tasks_finished.append(received_task)
+            ntasks_finished += 1
+
+            if source not in TasksDoneByWorker:
+                TasksDoneByWorker[source] = 1
+            else:
+                TasksDoneByWorker[source] += 1
+            # send more
+            if task_index < ntasks:
+                comm.send(tasks[task_index], dest=source, tag=TAG_TASK)
+                task_index += 1
+    
+    for worker in range(1, nworkers+1):
+        comm.send(None, dest=worker, tag=TAG_DONE)
+    
+    return TasksDoneByWorker, tasks_finished
+
+    
+
+    
 
 def worker(comm):
     """
@@ -40,7 +89,19 @@ def worker(comm):
     comm : mpi4py.MPI communicator
         MPI communicator
     """
-    pass
+    while True:
+        status = MPI.Status()
+        received_task = comm.recv(source=MANAGER, tag=MPI.ANY_TAG, status=status) # receive mandel brot subdomain
+        tag = status.Get_tag()
+
+        if tag == TAG_TASK:
+            received_task.do_work()
+            comm.send(received_task, dest=MANAGER, tag=TAG_TASK_DONE)
+        elif tag == TAG_DONE:
+            break # no more work to do
+
+
+
 
 def readcmdline(rank):
     """
@@ -107,20 +168,32 @@ if __name__ == "__main__":
     y_max  = +1.5
     M = mandelbrot(x_min, x_max, nx, y_min, y_max, ny, ntasks)
     tasks = M.get_tasks()
-    for task in tasks:
-        task.do_work()
-    m = M.combine_tasks(tasks)
-    plt.imshow(m.T, cmap="gray", extent=[x_min, x_max, y_min, y_max])
-    plt.savefig("mandelbrot.png")
+    
+    if size == 1:
+        print("only one thread available, no need for manager...")
+        for task in tasks:
+            task.do_work()
+        m = M.combine_tasks(tasks)
+        plt.imshow(m.T, cmap="gray", extent=[x_min, x_max, y_min, y_max])
+        plt.savefig("mandelbrot_serial.png")
+    else:
+        if my_rank == MANAGER:
+            TasksDoneByWorker, tasks = manager(comm, tasks)
+            m = M.combine_tasks(tasks)
+            plt.imshow(m.T, cmap="gray", extent=[x_min, x_max, y_min, y_max])
+            plt.savefig("mandelbrot_mpi.png")
+        else:
+            worker(comm)
+
 
     # stop timer
     timespent += time.perf_counter()
 
     # inform that done
     if my_rank == MANAGER:
-        print(f"Run took {timespent:f} seconds")
+        print("Done!")
         for i in range(size):
             if i == MANAGER:
                 continue
             print(f"Process {i:5d} has done {TasksDoneByWorker[i]:10d} tasks")
-        print("Done.")
+        print(f"Run took {timespent:f} seconds")

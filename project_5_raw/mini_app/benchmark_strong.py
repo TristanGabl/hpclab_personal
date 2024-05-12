@@ -31,9 +31,6 @@ def main():
     iterations_warm_up = 2
 
     for i,N in enumerate(Ns):
-        if i == 0:
-            continue
-
         plt.clf()
         for n_x in N:
             time_seq_runs = []
